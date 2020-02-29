@@ -1,69 +1,63 @@
-# Developer's Note: This is a sample _config.yml file offered with
-# jekyll-theme-prologue for your convenience. To use it, move it to your
-# project's root directory. Please note that the following lines are
-# NECESSARY for Prologue to work correctly:
-#
-# theme: jekyll-theme-prologue
-# collections: [sections]
-#
-# They activate the theme and tell Jekyll to find your homepage content
-# in /_sections. Note where "sections" starts with an underscore
-# and where it doesn't. The social settings will make links to
-# Twitter, etc., but only if you give the URL.
-#
-# Also, be sure to customize url and baseurl for your site.
-#
-# ---------------------------------------------------------------
-#
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# Built with Jekyll 3.6.0
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: birromer's random extracts of life
-subtitle: tryin'
-description: >- # this means to ignore newlines until "baseurl:"
-  here is where I'll try to have some update decency for my sanity's sake
-author: Bernardo Hummes
-email: hummes@ieee.org
-avatar: assets/images/avatar.jpg
+# Setup
+title:                birromer's random extracts of life
+tagline:              tryin'
+description:          here is where I'll try to have some update decency for my sanity's sake
+url:                  'http://birromer.github.io'
+baseurl:              ''
 
-# You'll want to customize url and baseurl for your own site:
-# baseurl: "/jekyll-theme-prologue" # the subpath of your site, e.g. /blog
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+# About/contact
+author:
+  name:               Bernardo Hummes
+  url:                https://twitter.com/birromer
+  email:              hummes@ieee.org
+  avatar:             assets/images/avatar.jpg
 
-# Social settings
-# Make sure to include the full url including protocol, e.g. https://github.com/chrisbobbe
-twitter_url: https://twitter.com/birromer
-facebook_url:
-googleplus_url:
-instagram_url:
-linkedin_url: https://www.linkedin.com/in/bernardo-h-57239312a/
-github_url: https://github.com/birromer/
-stackoverflow_url:
-pinterest_url:
-slack_url:
-dribbble_url:
+# Color scheme. Options: red, orange, magenta, cyan, blue, brown
+color-scheme: cyan
 
-# Google Analytics Tracking ID goes here:
-google_analytics:
+# Permalinks
+permalink: pretty
+permalink: /:title/
 
-# The following settings are NECESSARY for the Prologue theme to run:
-remote_theme: chrisbobbe/jekyll-theme-prologue
-collections: [sections]
+# Set encoding to UTF-8
+encoding: utf-8
 
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-archives
+# Collections for texts
+collections:
+  texts:
+    output: true
+
+# Markdown specs
+markdown: kramdown
+
+kramdown:
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  footnote_backlink: "&#x21a9;&#xfe0e;"
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Exclusions from the final site
+exclude:
+  - optional
+  - vendor
+  - ed..gemspec
+  - Gemfile
+  - Gemfile.lock
+  - backstop_data
+  - backstop.json
+
+# Theme
+# (Used for local or custom-server deployments)
+# Uncomment the `theme` line if using the Ed. theme gem on your own computer or server.
+# See https://jekyllrb.com/docs/themes/
+# theme: "ed."
+
+# Remote Theme
+# (Used only for GitHub deployments)
+# See https://help.github.com/en/articles/adding-a-jekyll-theme-to-your-github-pages-site
+remote_theme: minicomp/ed
