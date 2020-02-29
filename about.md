@@ -13,6 +13,6 @@ I'm interested in mobile robotics, mainly visual SLAM and interval analysis, and
 <a href="mailto:hummes@ieee.org">email</a> | 
 <a href="https://github.com/birromer"> github</a> |
 <a href="http://lattes.cnpq.br/1520753930940484">lattes</a> |
-<a href="https://www.linkedin.com/in/bernardo-h-57239312a/"> LinkedIn </a> |
+<a href="https://www.linkedin.com/in/bernardo-h-57239312a/"> linkedin </a> |
 <a href="http://twitter.com/birromer">twitter</a>
 </p>
