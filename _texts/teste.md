@@ -14,7 +14,5 @@ Get ready for some cool posty stuff
 # oha so que massa
 
 
-<!----- Footnotes ----->
-
 kkj
 
