@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post 
 title: "My Cool Post"
 date: 2021-05-15
 categories: 
