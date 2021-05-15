@@ -50,7 +50,6 @@ exclude:
   - Gemfile.lock
   - backstop_data
   - backstop.json
-  - *.org
 
 # Theme
 # (Used for local or custom-server deployments)
