@@ -1,10 +1,6 @@
 ---
 layout: narrative 
-title: "My Cool Post"
-date: 2021-05-15
-categories: 
-- post
-tags: 
+title: "My Cool Narrative"
 author: Bernardo Hummes
 ---
 

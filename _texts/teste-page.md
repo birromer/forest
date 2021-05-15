@@ -1,10 +1,7 @@
 ---
 layout: page 
-title: "My Cool Post"
+title: "My Cool page"
 date: 2021-05-15
-categories: 
-- post
-tags: 
 author: Bernardo Hummes
 ---
 
