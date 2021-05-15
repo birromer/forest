@@ -1,11 +1,13 @@
 ---
+layout: blog
 title: "My Cool Post"
-excerpt: "This will be the excerpt."
-date: 2019-09-24
+date: 2021-05-15
 categories: 
 - post
 tags: 
+author: Bernardo Hummes
 ---
+
 Get ready for some cool posty stuff
 
 
@@ -13,4 +15,6 @@ Get ready for some cool posty stuff
 
 
 <!----- Footnotes ----->
+
+kkj
 
