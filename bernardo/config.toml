@@ -1,7 +1,8 @@
-baseURL = 'http://birromer.github.io/'
-languageCode = 'en-us'
-title = 'bernardo hummes'
+baseURL = "http://birromer.github.io/"
+languageCode = "en-us"
+title = "bernardo hummes"
+author = "Bernardo Hummes"
 
-[module]
-  [[module.imports]]
-    path = "github.com/kaushalmodi/hugo-bare-min-theme"
+enableEmoji = true
+
+theme = "hugo-theme-nostyleplease"

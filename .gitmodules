@@ -1,0 +1,9 @@
+[submodule "bernardo/themes/bare-min-theme"]
+	path = bernardo/themes/bare-min-theme
+	url = https://github.com/kaushalmodi/hugo-bare-min-theme
+[submodule "bernardo/themes/hugo-bare-min-theme"]
+	path = bernardo/themes/hugo-bare-min-theme
+	url = https://github.com/kaushalmodi/hugo-bare-min-theme
+[submodule "bernardo/themes/hugo-theme-nostyleplease"]
+	path = bernardo/themes/hugo-theme-nostyleplease
+	url = https://github.com/Masellum/hugo-theme-nostyleplease
