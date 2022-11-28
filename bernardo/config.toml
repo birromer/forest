@@ -13,53 +13,36 @@ pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-# paginate = 5
+paginate = 15
 
 enableEmoji = true
 
 goatcounter = "birromer"
 
+[markup.goldmark.renderer]
+  unsafe = true
+
 [params]
-favicon = "favicon.ico"
-mode = "light"
+  favicon = "favicon.ico"
+  mode = "light"
 
 [params.theme_config]
-back_home_text = ".."
-date_format = "2006-01-02"
-show_description = true
-appearance = "light"
+  back_home_text = ".."
+  date_format = "2006-01-02"
+  show_description = true
+  appearance = "light"
 
 [[params.social]]
-name = "github"
-url = "https://github.com/birromer"
-icon = "github"
+  name = "github"
+  url = "https://github.com/birromer"
+  icon = "github"
 
 [[params.social]]
-name = "twitter"
-url = "https://twitter.com/birromer"
-icon = "twitter"
+  name = "twitter"
+  url = "https://twitter.com/birromer"
+  icon = "twitter"
 
 [[params.social]]
-name = "linkedin"
-url = "https://www.linkedin.com/in/bernardo-h-57239312a"
-icon = "linkedin"
-
-[[menu.main]]
-name = "home"
-url = "/"
-weight = 1
-
-[[menu.main]]
-name = "about"
-url = "/about"
-weight = 2
-
-[[menu.main]]
-name = "posts"
-url = "/posts"
-weight = 3
-
-[[menu.main]]
-name = "tags"
-url = "/tags"
-weight = 4
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/bernardo-h-57239312a"
+  icon = "linkedin"
