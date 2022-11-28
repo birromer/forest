@@ -7,3 +7,6 @@
 [submodule "bernardo/themes/hugo-theme-nostyleplease"]
 	path = bernardo/themes/hugo-theme-nostyleplease
 	url = https://github.com/Masellum/hugo-theme-nostyleplease
+[submodule "berbardi/themes/archie"]
+	path = berbardi/themes/archie
+	url = https://github.com/athul/archie

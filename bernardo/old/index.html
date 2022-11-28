@@ -1,0 +1,32 @@
+---
+layout: default
+title: here is begins
+---
+<div class="introduction">
+  <h1>hi.</h1>
+
+<p>
+  So, this is an attempt on my wish to pick up the habit of documenting
+  slash writing down stuff that I have learned and wish not to forget.
+</p>
+<p>
+  You'll probably find this to be very poorly updated and with contents 
+  that have little to no connection. Happens.
+</<p>
+</div>
+
+<hr>
+
+<div class="toc">
+  <h2>the stuff</h2>
+  <ul class="texts">
+  {% for item in site.texts %}
+
+    <li class="text-title">
+      <a href="{{ site.baseurl }}{{ item.url }}">
+        {{ item.title }}
+      </a>
+    </li>
+  {% endfor %}
+  </ul>
+</div>

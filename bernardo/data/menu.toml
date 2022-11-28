@@ -1,53 +1,26 @@
 [[entries]]
 title = "info"
+entries = [
+   { title = "I'm a PhD student at <a href='https://www.lix.polytechnique.fr/'>LIX</a> working on formal methods for mobile robotics" },
+   { title = "You can find here my <a href='https://github.com/birromer/'>github</a>, <a href='https://orcid.org/0000-0003-2325-1497'>orcid</a> and <a href='https://www.linkedin.com/in/bernardo-h-57239312a/'>linkedin</a>" },
+  ]
 
-  [[entries.entries]]
-  title = "a (nearly) no-CSS, fast, minimalist Hugo theme ported from <a href='https://github.com/riggraz/no-style-please'>riggraz/no-style-please</a>."
-
-  [[entries.entries]]
-  title = "github repo"
-  url = "https://github.com/riggraz/no-style-please"
-
-  [[entries.entries]]
-  title = "used by <a href='https://riggraz.dev'>riggraz.dev</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"
+# [[entries]]
+# title = "[ <a href='posts'>posts</a> | <a href='tags'>tags</a> ]"
 
 [[entries]]
-title = "all posts"
+title = "posts"
+url = "posts"
+
+[[entries]]
+title = "tags"
+url = "tags"
+
+[[entries]]
+title = "recent"
 
   [entries.post_list]
   limit = 5
   show_more = true
-  show_more_text = "See archive..."
+  show_more_text = "rest of the stuff ..."
   show_more_url = "posts"
-
-[[entries]]
-title = "posts by category"
-
-  [entries.post_list]
-  section = "posts"
-  show_more = true
-  show_more_text = "See more posts..."
-  show_more_url = "posts"
-
-[[entries]]
-title = "rss"
-url = "index.xml"
-
-[[entries]]
-title = "another list"
-
-  [[entries.entries]]
-  title = "with subitems"
-
-    [[entries.entries.entries]]
-    title = "with subsubitems"
-
-    [[entries.entries.entries]]
-    title = "example page"
-    url = "about"
-
-[[entries]]
-title = "PRO TIP"
-entries = [
-   { title = "to edit this menu, edit data/menu.toml file" }
-  ]
