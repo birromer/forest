@@ -44,22 +44,22 @@ name = "linkedin"
 url = "https://www.linkedin.com/in/bernardo-h-57239312a"
 icon = "linkedin"
 
-# [[menu.main]]
-# name = "home"
-# url = "/"
-# weight = 1
-#
-# [[menu.main]]
-# name = "about"
-# url = "/about"
-# weight = 2
-#
-# [[menu.main]]
-# name = "posts"
-# url = "/posts"
-# weight = 3
-#
-# [[menu.main]]
-# name = "tags"
-# url = "/tags"
-# weight = 4
+[[menu.main]]
+name = "home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "about"
+url = "/about"
+weight = 2
+
+[[menu.main]]
+name = "posts"
+url = "/posts"
+weight = 3
+
+[[menu.main]]
+name = "tags"
+url = "/tags"
+weight = 4
