@@ -13,7 +13,7 @@ pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-paginate = 15
+paginate = 3
 
 enableEmoji = true
 
@@ -49,7 +49,7 @@ footnotereturnlinkcontents = "↩"
 
 [[menu.main]]
   name = "posts"
-  url = "posts/"
+  url = "post/"
   weight = 2
 
 [[menu.main]]
