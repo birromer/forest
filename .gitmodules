@@ -1,6 +1,0 @@
-[submodule "bernardo/themes/hugo-theme-nostyleplease"]
-	path = bernardo/themes/hugo-theme-nostyleplease
-	url = https://github.com/Masellum/hugo-theme-nostyleplease
-[submodule "bernardo/themes/minimalist"]
-	path = bernardo/themes/minimalist
-	url = https://github.com/ronv/minimalist
