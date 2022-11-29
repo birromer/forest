@@ -1,0 +1,82 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "bernardo hummes"
+author = "Bernardo Hummes"
+
+# theme = "hugo-theme-nostyleplease"
+# theme = "minimalist"
+theme = "xmin"
+
+publishDir = "../"
+
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+paginate = 15
+
+enableEmoji = true
+
+goatcounter = "birromer"
+
+footnotereturnlinkcontents = "↩"
+
+[permalinks]
+  note = "/note/:year/:month/:day/:slug/"
+  post = "/post/:year/:month/:day/:slug/"
+
+[params]
+  favicon = "favicon.ico"
+  mode = "light"
+  footer =  "[github](https://github.com/birromer) | [twitter](https://twitter.com/birromer) | [linkedin](https://www.linkedin.com/in/bernardo-h-57239312a) | [theme](https://github.com/yihui/hugo-xmin/)"
+
+[params.theme_config]
+  back_home_text = ".."
+  date_format = "2006-01-02"
+  show_description = true
+  appearance = "light"
+
+[[menu.main]]
+  name = "home"
+  url = ""
+  weight = 1
+
+[[menu.main]]
+  name = "about"
+  url = "about/"
+  weight = 2
+
+
+[[menu.main]]
+  name = "posts"
+  url = "posts/"
+  weight = 2
+
+[[menu.main]]
+  name = "tags"
+  url = "tags/"
+  weight = 3
+
+# [module]
+#   [[module.imports]]
+#     path = "github.com/kaushalmodi/hugo-bare-min-theme"
+
+# [Params.source]
+#   url = "https://your/site/repo/url"
+#   md_dir = "content"
+#   org_dir = "content-org"
+
+# [[params.social]]
+#   name = "github"
+#   url = "https://github.com/birromer"
+#   icon = "github"
+
+# [[params.social]]
+#   name = "twitter"
+#   url = "https://twitter.com/birromer"
+#   icon = "twitter"
+
+# [[params.social]]
+#   name = "linkedin"
+#   url = "https://www.linkedin.com/in/bernardo-h-57239312a"
+#   icon = "linkedin"

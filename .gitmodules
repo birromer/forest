@@ -1,0 +1,3 @@
+[submodule "site/xmin"]
+	path = site/xmin
+	url = https://github.com/yihui/hugo-xmin

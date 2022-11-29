@@ -1,7 +1,7 @@
 +++
 title = "Two generals problem"
 author = ["Bernardo Hummes Flores"]
-lastmod = 2022-11-29T15:51:39+01:00
+lastmod = 2022-11-29T17:17:51+01:00
 tags = ["phd", "distributed_computing"]
 draft = false
 +++
