@@ -6,6 +6,8 @@ author = "Bernardo Hummes"
 theme = "hugo-theme-nostyleplease"
 # theme = "minimalist"
 
+publishDir = "./"
+
 pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
