@@ -1,0 +1,16 @@
+{{ partial "back_link.html" . }}
+
+{{- $posts := "" -}}
+
+<h1>{{ .Title }}</h1>
+
+{{ .Content }}
+<ul class="terms">
+  {{ range $key, $value := .Data.Terms }}
+  <li>
+     <a href="{{ (print "/" $.Data.Plural "/" $key | urlize) | relURL }}">
+      {{ $key }}
+    </a> ({{ len $value }})  
+  </li>
+</ul>
+{{ end }}
