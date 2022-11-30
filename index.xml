@@ -6,15 +6,25 @@
     <description>Recent content in Home on bernardo hummes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Nov 2022 17:17:51 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Nov 2022 11:36:58 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Two generals problem</title>
-      <link>/two-generals-problem/</link>
-      <pubDate>Tue, 29 Nov 2022 17:17:51 +0100</pubDate>
+      <link>/post/2022/11/30/two-generals-problem/</link>
+      <pubDate>Wed, 30 Nov 2022 11:36:58 +0100</pubDate>
       
-      <guid>/two-generals-problem/</guid>
-      <description>This second problem shows how in some cases failures in communication is enough for making it impossible to reach a decision. The enunciation of the problem is as follows.
+      <guid>/post/2022/11/30/two-generals-problem/</guid>
+      <description>Notes segundo item Notes This second problem shows how in some cases failures in communication is enough for making it impossible to reach a decision. The enunciation of the problem is as follows.
 Two army division, one commanded by general ALice and one by general Bob, are camped on two hilltops overlooking a valley, The enemy is camped in the valley. If both divisions attack simultaneously, they will win, but if only one division attacks by itself, it will be defeated.</description>
+    </item>
+    
+    <item>
+      <title>Post_teste</title>
+      <link>/post/2022/11/30/post_teste/</link>
+      <pubDate>Wed, 30 Nov 2022 10:56:15 +0100</pubDate>
+      
+      <guid>/post/2022/11/30/post_teste/</guid>
+      <description>inicio teste
+link</description>
     </item>
     
     <item>
@@ -45,16 +55,6 @@ Rob J Hyndman&amp;rsquo;s personal website. Live Free or Dichotomize by Lucy and
       <description>This sample post is mainly for blogdown users. If you do not use blogdown, you can skip the first section.
 1. Markdown or R Markdown This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:
 You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.</description>
-    </item>
-    
-    <item>
-      <title>Lorem Ipsum</title>
-      <link>/post/2015/07/23/lorem-ipsum/</link>
-      <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/post/2015/07/23/lorem-ipsum/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-Quisque mattis volutpat lorem vitae feugiat.</description>
     </item>
     
     <item>

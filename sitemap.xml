@@ -2,20 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/tags/distributed_computing/</loc>
-    <lastmod>2022-11-29T17:17:51+01:00</lastmod>
+    <loc>/tags/distributed-computing/</loc>
+    <lastmod>2022-11-30T11:36:58+01:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2022-11-29T17:17:51+01:00</lastmod>
+    <lastmod>2022-11-30T11:36:58+01:00</lastmod>
   </url><url>
     <loc>/tags/phd/</loc>
-    <lastmod>2022-11-29T17:17:51+01:00</lastmod>
+    <lastmod>2022-11-30T11:36:58+01:00</lastmod>
+  </url><url>
+    <loc>/post/</loc>
+    <lastmod>2022-11-30T11:36:58+01:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
-    <lastmod>2022-11-29T17:17:51+01:00</lastmod>
+    <lastmod>2022-11-30T11:36:58+01:00</lastmod>
   </url><url>
-    <loc>/two-generals-problem/</loc>
-    <lastmod>2022-11-29T17:17:51+01:00</lastmod>
+    <loc>/post/2022/11/30/two-generals-problem/</loc>
+    <lastmod>2022-11-30T11:36:58+01:00</lastmod>
+  </url><url>
+    <loc>/post/2022/11/30/post_teste/</loc>
+    <lastmod>2022-11-30T10:56:15+01:00</lastmod>
   </url><url>
     <loc>/note/2017/06/14/another-note/</loc>
     <lastmod>2017-06-14T00:00:00+00:00</lastmod>
@@ -53,14 +59,8 @@
     <loc>/tags/pandoc/</loc>
     <lastmod>2016-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/</loc>
-    <lastmod>2016-02-14T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tags/rstudio/</loc>
     <lastmod>2016-02-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/post/2015/07/23/lorem-ipsum/</loc>
-    <lastmod>2015-07-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/about/</loc>
   </url>

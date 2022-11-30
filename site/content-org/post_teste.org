@@ -1,5 +1,0 @@
-#+title: Post_teste
-
-#+hugo_base_dir: ../
-#+hugo_section: ./
-#+hugo_auto_set_lastmod: t
