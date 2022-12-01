@@ -6,11 +6,11 @@
     <description>Recent content in distributed-computing on bernardo hummes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Nov 2022 11:36:58 +0100</lastBuildDate><atom:link href="/tags/distributed-computing/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Nov 2022 14:16:00 +0100</lastBuildDate><atom:link href="/tags/distributed-computing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Two generals problem</title>
       <link>/post/2022/11/30/two-generals-problem/</link>
-      <pubDate>Wed, 30 Nov 2022 11:36:58 +0100</pubDate>
+      <pubDate>Wed, 30 Nov 2022 14:16:00 +0100</pubDate>
       
       <guid>/post/2022/11/30/two-generals-problem/</guid>
       <description>Notes segundo item Notes This second problem shows how in some cases failures in communication is enough for making it impossible to reach a decision. The enunciation of the problem is as follows.

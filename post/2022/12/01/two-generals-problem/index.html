@@ -27,13 +27,15 @@
 
 <div class="article-meta">
 <h1><span class="title">Two generals problem</span></h1>
-<h3 class="date">30/11/2022</h3>
+<h3 class="date">01/12/2022</h3>
 <p class="terms">
   
   
+  Categories: <a href="/categories/distributed-computing">distributed computing</a> 
   
   
-  Tags: <a href="/tags/phd">phd,</a> <a href="/tags/distributed-computing">distributed-computing</a> 
+  
+  Tags: <a href="/tags/phd">phd</a> 
   
   
 </p>
@@ -44,7 +46,6 @@
 <!-- raw HTML omitted -->
 <ul>
 <li><a href="#notes">Notes</a></li>
-<li><a href="#segundo-item">segundo item</a></li>
 </ul>
 <!-- raw HTML omitted -->
 <h2 id="notes">Notes</h2>
@@ -57,7 +58,7 @@
 However, one can see that no number of messages will be enough for this to be agreed upon, as the resulting scenario after a message is received or lost is the same for those who sent it.
 Another confirmation will be required and this process will never end.
 The delay is not considered here, as this problem is impossible even without taking this into consideration.
-It is possible to see in the image bellow the possible states.</p>
+It is possible to see in image <a href="fig:complex_generals">fig:complex_generals</a> the possible states.</p>
 <p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <figure><img src="/ox-hugo/complex_two_generals.png"
          alt="Figure 1: The evolving states after each general sends a message, credit to &amp;lt;&amp;amp;herlihyDistributedComputingCombinatorial2014&amp;gt;."/><figcaption>
@@ -68,7 +69,7 @@ It is possible to see in the image bellow the possible states.</p>
 <p>At first, we can see that Bob, without any messages received, consider equally the possibility of Alice having sent either the command to attack at dawn or to attack at noon.
 Once a message is received, Alice will see as equally possible the case where Bob received the message or it has not.
 This same pattern will repeat forever, and we can say that topologically it will always have one connected component.
-The impossibility appears when we compare with what are the desired configurations, with three different scenarios where they either both attack at dawn, at noon or not at all, seen in the figure bellow.
+The impossibility appears when we compare with what are the desired configurations, with three different scenarios where they either both attack at dawn, at noon or not at all, seen in figure <a href="fig:solvability_generals">fig:solvability_generals</a>.
 Topologically this constitutes three disconnected components, which is impossible to map functionally from the previous space.
 This will be further explained in colorless tasks and general tasks, where the precise requirements for solvability are exposed.</p>
 <p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
@@ -78,7 +79,6 @@ This will be further explained in colorless tasks and general tasks, where the p
         </figcaption>
 </figure>
 
-<h2 id="segundo-item">segundo item</h2>
 <p>&lt;~/mega/org/library.bib&gt;</p>
 
 </main>

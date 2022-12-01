@@ -1,0 +1,9 @@
+#+author:
+#+hugo_custom_front_matter: :author "Bernardo Hummes"
+
+#+options: toc:t broken-links:auto
+
+#+HUGO_BASE_DIR: ../
+#+HUGO_SECTION: note
+#+hugo_auto_set_lastmod: t
+#+hugo_custom_front_matter: :link-citations true

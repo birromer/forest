@@ -2,65 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/tags/distributed-computing/</loc>
-    <lastmod>2022-11-30T11:36:58+01:00</lastmod>
+    <loc>/categories/</loc>
+    <lastmod>2022-12-01T13:44:40+01:00</lastmod>
+  </url><url>
+    <loc>/categories/distributed-computing/</loc>
+    <lastmod>2022-12-01T13:44:40+01:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2022-11-30T11:36:58+01:00</lastmod>
+    <lastmod>2022-12-01T13:44:40+01:00</lastmod>
+  </url><url>
+    <loc>/post/2022/12/01/muddy-children-problem/</loc>
+    <lastmod>2022-12-01T13:44:40+01:00</lastmod>
   </url><url>
     <loc>/tags/phd/</loc>
-    <lastmod>2022-11-30T11:36:58+01:00</lastmod>
+    <lastmod>2022-12-01T13:44:40+01:00</lastmod>
   </url><url>
     <loc>/post/</loc>
-    <lastmod>2022-11-30T11:36:58+01:00</lastmod>
+    <lastmod>2022-12-01T13:44:40+01:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
-    <lastmod>2022-11-30T11:36:58+01:00</lastmod>
+    <lastmod>2022-12-01T13:44:40+01:00</lastmod>
   </url><url>
-    <loc>/post/2022/11/30/two-generals-problem/</loc>
-    <lastmod>2022-11-30T11:36:58+01:00</lastmod>
-  </url><url>
-    <loc>/post/2022/11/30/post_teste/</loc>
-    <lastmod>2022-11-30T10:56:15+01:00</lastmod>
-  </url><url>
-    <loc>/note/2017/06/14/another-note/</loc>
-    <lastmod>2017-06-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/</loc>
-    <lastmod>2017-06-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/example/</loc>
-    <lastmod>2017-06-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/note/</loc>
-    <lastmod>2017-06-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/tutorial/</loc>
-    <lastmod>2017-06-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/note/2017/06/13/a-quick-note/</loc>
-    <lastmod>2017-06-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/post/2016/02/14/a-plain-markdown-post/</loc>
-    <lastmod>2016-02-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/blogdown/</loc>
-    <lastmod>2016-02-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/hugo/</loc>
-    <lastmod>2016-02-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/markdown/</loc>
-    <lastmod>2016-02-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/mathjax/</loc>
-    <lastmod>2016-02-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/pandoc/</loc>
-    <lastmod>2016-02-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/rstudio/</loc>
-    <lastmod>2016-02-14T00:00:00+00:00</lastmod>
+    <loc>/post/2022/12/01/two-generals-problem/</loc>
+    <lastmod>2022-12-01T13:44:36+01:00</lastmod>
   </url><url>
     <loc>/about/</loc>
   </url>

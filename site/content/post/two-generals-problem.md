@@ -1,9 +1,11 @@
 +++
 title = "Two generals problem"
-author = ["Bernardo Hummes Flores"]
-lastmod = 2022-11-30T11:36:58+01:00
-tags = ["phd,", "distributed-computing"]
+date = 2022-12-01T11:38:00+01:00
+lastmod = 2022-12-01T13:44:36+01:00
+tags = ["phd"]
+categories = ["distributed computing"]
 draft = false
+author = "Bernardo Hummes"
 link-citations = true
 +++
 
@@ -12,11 +14,9 @@ link-citations = true
 <div class="heading">Table of Contents</div>
 
 - [Notes](#notes)
-- [segundo item](#segundo-item)
 
 </div>
 <!--endtoc-->
-
 
 
 ## Notes {#notes}
@@ -31,7 +31,7 @@ We are interested in arriving in a common decision for both agents, so that eith
 However, one can see that no number of messages will be enough for this to be agreed upon, as the resulting scenario after a message is received or lost is the same for those who sent it.
 Another confirmation will be required and this process will never end.
 The delay is not considered here, as this problem is impossible even without taking this into consideration.
-It is possible to see in the image bellow the possible states.
+It is possible to see in image <fig:complex_generals> the possible states.
 
 <a id="figure--fig:complex-generals"></a>
 
@@ -40,16 +40,13 @@ It is possible to see in the image bellow the possible states.
 At first, we can see that Bob, without any messages received, consider equally the possibility of Alice having sent either the command to attack at dawn or to attack at noon.
 Once a message is received, Alice will see as equally possible the case where Bob received the message or it has not.
 This same pattern will repeat forever, and we can say that topologically it will always have one connected component.
-The impossibility appears when we compare with what are the desired configurations, with three different scenarios where they either both attack at dawn, at noon or not at all, seen in the figure bellow.
+The impossibility appears when we compare with what are the desired configurations, with three different scenarios where they either both attack at dawn, at noon or not at all, seen in figure <fig:solvability_generals>.
 Topologically this constitutes three disconnected components, which is impossible to map functionally from the previous space.
 This will be further explained in colorless tasks and general tasks, where the precise requirements for solvability are exposed.
 
 <a id="figure--fig:solvability-generals"></a>
 
 {{< figure src="/ox-hugo/solvability_generals.png" caption="<span class=\"figure-number\">Figure 2: </span>The impossible mapping for the generals communication, credit to <&herlihyDistributedComputingCombinatorial2014>." >}}
-
-
-## segundo item {#segundo-item}
 
 
 <~/mega/org/library.bib>

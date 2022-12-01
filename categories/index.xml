@@ -6,22 +6,13 @@
     <description>Recent content in Categories on bernardo hummes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Jun 2017 00:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Dec 2022 13:39:00 +0100</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Example</title>
-      <link>/categories/example/</link>
-      <pubDate>Wed, 14 Jun 2017 00:00:00 +0000</pubDate>
+      <title>distributed computing</title>
+      <link>/categories/distributed-computing/</link>
+      <pubDate>Thu, 01 Dec 2022 13:39:00 +0100</pubDate>
       
-      <guid>/categories/example/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hugo</title>
-      <link>/categories/hugo/</link>
-      <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/hugo/</guid>
+      <guid>/categories/distributed-computing/</guid>
       <description></description>
     </item>
     

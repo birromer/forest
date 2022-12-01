@@ -6,36 +6,25 @@
     <description>Recent content in Posts on bernardo hummes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Nov 2022 11:36:58 +0100</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Dec 2022 13:39:00 +0100</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Muddy children problem</title>
+      <link>/post/2022/12/01/muddy-children-problem/</link>
+      <pubDate>Thu, 01 Dec 2022 13:39:00 +0100</pubDate>
+      
+      <guid>/post/2022/12/01/muddy-children-problem/</guid>
+      <description>Notes Notes This initial problem instantiates how knowledge evolves via communication of agents that begin without knowing their own states. One possible enunciation is as follows:
+A group of children is playing in the garden, and some of them end up with mud on their foreheads. Each child can see the other children&amp;rsquo;s foreheads but not his or her own. At noon, their teacher summons the children and says: &amp;ldquo;At least one of you has a muddy forehead.</description>
+    </item>
+    
     <item>
       <title>Two generals problem</title>
-      <link>/post/2022/11/30/two-generals-problem/</link>
-      <pubDate>Wed, 30 Nov 2022 11:36:58 +0100</pubDate>
+      <link>/post/2022/12/01/two-generals-problem/</link>
+      <pubDate>Thu, 01 Dec 2022 11:38:00 +0100</pubDate>
       
-      <guid>/post/2022/11/30/two-generals-problem/</guid>
-      <description>Notes segundo item Notes This second problem shows how in some cases failures in communication is enough for making it impossible to reach a decision. The enunciation of the problem is as follows.
+      <guid>/post/2022/12/01/two-generals-problem/</guid>
+      <description>Notes Notes This second problem shows how in some cases failures in communication is enough for making it impossible to reach a decision. The enunciation of the problem is as follows.
 Two army division, one commanded by general ALice and one by general Bob, are camped on two hilltops overlooking a valley, The enemy is camped in the valley. If both divisions attack simultaneously, they will win, but if only one division attacks by itself, it will be defeated.</description>
-    </item>
-    
-    <item>
-      <title>Post_teste</title>
-      <link>/post/2022/11/30/post_teste/</link>
-      <pubDate>Wed, 30 Nov 2022 10:56:15 +0100</pubDate>
-      
-      <guid>/post/2022/11/30/post_teste/</guid>
-      <description>inicio teste
-link</description>
-    </item>
-    
-    <item>
-      <title>A Plain Markdown Post</title>
-      <link>/post/2016/02/14/a-plain-markdown-post/</link>
-      <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/post/2016/02/14/a-plain-markdown-post/</guid>
-      <description>This sample post is mainly for blogdown users. If you do not use blogdown, you can skip the first section.
-1. Markdown or R Markdown This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:
-You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.</description>
     </item>
     
   </channel>
