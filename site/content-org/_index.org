@@ -1,0 +1,12 @@
+#+title: Home
+
+#+HUGO_BASE_DIR: ../
+#+HUGO_SECTION:
+
+* DONE bernardo hummes flores
+
+** _hi_
+
+I'm a first year PhD student at [[https://www.lix.polytechnique.fr/][LIX]] working on formal methods for mobile robotics.
+
+You may find here some intentional [[/post/][posts]] and less mindful [[/note/][notes]] for the sake of sharing. Bellow is a list of everything.

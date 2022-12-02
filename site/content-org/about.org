@@ -1,0 +1,6 @@
+#+title: About
+
+#+HUGO_BASE_DIR: ../
+#+HUGO_SECTION:
+
+I am a

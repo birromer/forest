@@ -1,10 +1,9 @@
 +++
 title = "Two generals problem"
-date = 2022-12-01T11:38:00+01:00
-lastmod = 2022-12-01T13:44:36+01:00
-tags = ["phd"]
+lastmod = 2022-12-02T14:00:41+01:00
+tags = ["phd", "distributed computing"]
 categories = ["distributed computing"]
-draft = false
+draft = true
 author = "Bernardo Hummes"
 link-citations = true
 +++
@@ -19,9 +18,12 @@ link-citations = true
 <!--endtoc-->
 
 
+
+
 ## Notes {#notes}
 
-This second problem shows how in some cases failures in communication is enough for making it impossible to reach a decision. The enunciation of the problem is as follows.
+teste (<a href="#citeproc_bib_item_1">Zou et al. 2017</a>)
+This problem shows how in some cases failures in communication is enough for making it impossible to reach a decision. The enunciation of the problem is as follows.
 
 > Two army division, one commanded by general ALice and one by general Bob, are camped on two hilltops overlooking a valley, The enemy is camped in the valley. If both divisions attack simultaneously, they will win, but if only one division attacks by itself, it will be defeated. As a result, neither general will attack without a guarantee that the other will attack at the same time. In particular, **neither general will attack without communication from the other**.
 >
@@ -42,11 +44,14 @@ Once a message is received, Alice will see as equally possible the case where Bo
 This same pattern will repeat forever, and we can say that topologically it will always have one connected component.
 The impossibility appears when we compare with what are the desired configurations, with three different scenarios where they either both attack at dawn, at noon or not at all, seen in figure <fig:solvability_generals>.
 Topologically this constitutes three disconnected components, which is impossible to map functionally from the previous space.
-This will be further explained in colorless tasks and general tasks, where the precise requirements for solvability are exposed.
+This will be further explained in and , where the precise requirements for solvability are exposed.
 
 <a id="figure--fig:solvability-generals"></a>
 
 {{< figure src="/ox-hugo/solvability_generals.png" caption="<span class=\"figure-number\">Figure 2: </span>The impossible mapping for the generals communication, credit to <&herlihyDistributedComputingCombinatorial2014>." >}}
 
 
-<~/mega/org/library.bib>
+
+<style>.csl-entry{text-indent: -1.5em; margin-left: 1.5em;}</style><div class="csl-bib-body">
+  <div class="csl-entry"><a id="citeproc_bib_item_1"></a>Zou, Qin, Lihao Ni, Qian Wang, Zhongwen Hu, Qingquan Li, and Song Wang. 2017. “Local Pattern Collocations Using Regional Co-occurrence Factorization.” <i>Ieee Transactions on Multimedia</i> 19 (3): 492–505. doi:<a href="https://doi.org/10.1109/TMM.2016.2619912">10.1109/TMM.2016.2619912</a>.</div>
+</div>
