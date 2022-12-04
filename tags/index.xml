@@ -5,6 +5,25 @@
     <link>/tags/</link>
     <description>Recent content in Tags on bernardo hummes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sun, 04 Dec 2022 15:54:00 +0100</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>distributed computing</title>
+      <link>/tags/distributed-computing/</link>
+      <pubDate>Sun, 04 Dec 2022 15:54:00 +0100</pubDate>
+      
+      <guid>/tags/distributed-computing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>phd</title>
+      <link>/tags/phd/</link>
+      <pubDate>Sun, 04 Dec 2022 15:54:00 +0100</pubDate>
+      
+      <guid>/tags/phd/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

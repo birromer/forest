@@ -2,12 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/about/</loc>
-  </url><url>
     <loc>/categories/</loc>
+    <lastmod>2022-12-04T15:54:32+01:00</lastmod>
+  </url><url>
+    <loc>/tags/distributed-computing/</loc>
+    <lastmod>2022-12-04T15:54:32+01:00</lastmod>
+  </url><url>
+    <loc>/categories/distributed-computing/</loc>
+    <lastmod>2022-12-04T15:54:32+01:00</lastmod>
   </url><url>
     <loc>/</loc>
+    <lastmod>2022-12-04T15:54:32+01:00</lastmod>
+  </url><url>
+    <loc>/tags/phd/</loc>
+    <lastmod>2022-12-04T15:54:32+01:00</lastmod>
+  </url><url>
+    <loc>/post/</loc>
+    <lastmod>2022-12-04T15:54:32+01:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
+    <lastmod>2022-12-04T15:54:32+01:00</lastmod>
+  </url><url>
+    <loc>/post/2022/12/04/two-generals-problem/</loc>
+    <lastmod>2022-12-04T15:54:32+01:00</lastmod>
+  </url><url>
+    <loc>/about/</loc>
   </url>
 </urlset>
