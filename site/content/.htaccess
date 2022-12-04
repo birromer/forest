@@ -1,0 +1,5 @@
+#Protect Directory
+AuthName "Dialog prompt"
+AuthType Basic
+AuthUserFile /Users/bernardo/Sites/bernardo/site/content/note/.htpasswd
+Require valid-user

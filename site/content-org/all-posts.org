@@ -7,6 +7,7 @@
 
 #+options: toc:2 broken-links:t
 #+startup: content
+#+toc: headlines 2
 
 #+HUGO_BASE_DIR: ../
 #+HUGO_SECTION: post

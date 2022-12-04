@@ -1,9 +1,28 @@
+:PROPERTIES:
+:ID:       124d91c6-d84c-4ac2-85d6-6085330fc192
+:END:
+
 #+author:
 #+hugo_custom_front_matter: :author "Bernardo Hummes"
 
-#+options: toc:t broken-links:auto
+#+options: toc:2 broken-links:t
+#+startup: content
+#+toc: headlines 2
 
 #+HUGO_BASE_DIR: ../
 #+HUGO_SECTION: note
 #+hugo_auto_set_lastmod: t
 #+hugo_custom_front_matter: :link-citations true
+#+bibliography: ~/mega/org/library.bib
+#+print_bibliography: keyword
+
+* Distributed Computing :@distributed__computing:
+** CLOSED teste :phd:distributed__computing:secret:
+CLOSED: [2022-12-04 Sun 15:54]
+:properties:
+:EXPORT_FILE_NAME: two-generals-problem
+:end:
+#+include: "~/mega/org/roam/main/two_generals_problem.org" :lines "4-"
+
+* Category Theory :@category__theory:
+* Algebraic Topology :@algebraic__topology:

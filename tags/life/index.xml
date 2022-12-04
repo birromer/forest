@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>life on bernardo hummes</title>
+    <link>/tags/life/</link>
+    <description>Recent content in life on bernardo hummes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Dec 2022 13:39:00 +0100</lastBuildDate><atom:link href="/tags/life/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Muddy children problem</title>
+      <link>/post/2022/12/01/muddy-children-problem/</link>
+      <pubDate>Thu, 01 Dec 2022 13:39:00 +0100</pubDate>
+      
+      <guid>/post/2022/12/01/muddy-children-problem/</guid>
+      <description>Notes Notes This initial problem instantiates how knowledge evolves via communication of agents that begin without knowing their own states. One possible enunciation is as follows:
+A group of children is playing in the garden, and some of them end up with mud on their foreheads. Each child can see the other children&amp;rsquo;s foreheads but not his or her own. At noon, their teacher summons the children and says: &amp;ldquo;At least one of you has a muddy forehead.</description>
+    </item>
+    
+  </channel>
+</rss>
