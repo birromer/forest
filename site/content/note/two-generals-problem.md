@@ -1,7 +1,7 @@
 +++
 title = "teste"
 date = 2022-12-04T15:54:00+01:00
-lastmod = 2022-12-04T17:05:30+01:00
+lastmod = 2022-12-04T21:22:49+01:00
 tags = ["phd", "distributed computing", "secret"]
 categories = ["distributed computing"]
 draft = false
@@ -18,6 +18,8 @@ link-citations = true
 </div>
 <!--endtoc-->
 
+&lt;!--more--&gt;
+{&lbrace;% hugo-encryptor "PASSWORD" %&rbrace;}
 
 
 
@@ -55,3 +57,5 @@ This will be further explained in and , where the precise requirements for solva
 <style>.csl-entry{text-indent: -1.5em; margin-left: 1.5em;}</style><div class="csl-bib-body">
   <div class="csl-entry"><a id="citeproc_bib_item_1"></a>Herlihy, Maurice, D. N. Kozlov, and Sergio Rajsbaum. 2014. <i>Distributed Computing through Combinatorial Topology</i>. Amsterdam: Morgan Kaufmann, is an imprint of Elsevier.</div>
 </div>
+
+{&lbrace;% /hugo-encryptor %&rbrace;}

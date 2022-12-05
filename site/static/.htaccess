@@ -1,0 +1,5 @@
+#Protect Directory
+AuthName "Password for accessing notes"
+AuthType Basic
+AuthUserFile /.htpasswd
+Require valid-user
