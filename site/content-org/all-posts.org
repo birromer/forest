@@ -17,17 +17,26 @@
 #+print_bibliography: keyword
 
 * Distributed Computing :@distributed__computing:
-** CLOSED Two generals problem :phd:distributed__computing:
-CLOSED: [2022-12-04 Sun 15:54]
+** CLOSED Two generals problem :distributed__computing:
+CLOSED: [2022-12-06 Tue 10:55]
 :properties:
 :EXPORT_FILE_NAME: two-generals-problem
 :end:
-#+include: "~/mega/org/roam/main/two_generals_problem.org" :lines "4-"
+#+include: "~/mega/org/roam/main/two_generals_problem.org" :lines "11-"
 
-** WAIT Muddy children problem :phd:distributed__computing:
+** DONE Muddy children problem :distributed__computing:
+CLOSED: [2022-12-06 Tue 10:55]
 :PROPERTIES:
 :EXPORT_FILE_NAME: muddy-children-problem
 :END:
-#+include: "~/mega/org/roam/main/muddy_children_problem.org" :lines "4-"
+#+include: "~/mega/org/roam/main/muddy_children_problem.org" :lines "11-"
+
+** DONE Simplicial complexes :combinatoral__topology:distributed__computing:
+CLOSED: [2022-12-06 Tue 10:55]
+:PROPERTIES:
+:EXPORT_FILE_NAME: simplicial-complexes
+:END:
+#+include: "~/mega/org/roam/main/simplicial_complex.org" :lines "10-"
+
 * Category Theory :@category__theory:
 * Algebraic Topology :@algebraic__topology:

@@ -1,9 +1,10 @@
 +++
 title = "Muddy children problem"
-lastmod = 2022-12-04T15:53:44+01:00
-tags = ["phd", "distributed computing"]
+date = 2022-12-06T10:55:00+01:00
+lastmod = 2022-12-06T10:56:16+01:00
+tags = ["distributed computing"]
 categories = ["distributed computing"]
-draft = true
+draft = false
 author = "Bernardo Hummes"
 link-citations = true
 +++
@@ -16,16 +17,6 @@ link-citations = true
 
 </div>
 <!--endtoc-->
-
-
-date created
-: <span class="timestamp-wrapper"><span class="timestamp">&lt;2022-12-02 Fri&gt;</span></span>
-
-tags
-:
-
-related
-:
 
 
 ## Notes {#notes}

@@ -1,8 +1,8 @@
 +++
 title = "Two generals problem"
-date = 2022-12-04T15:54:00+01:00
-lastmod = 2022-12-04T16:40:45+01:00
-tags = ["phd", "distributed computing"]
+date = 2022-12-06T10:55:00+01:00
+lastmod = 2022-12-06T10:56:12+01:00
+tags = ["distributed computing"]
 categories = ["distributed computing"]
 draft = false
 author = "Bernardo Hummes"
@@ -17,7 +17,6 @@ link-citations = true
 
 </div>
 <!--endtoc-->
-
 
 
 
