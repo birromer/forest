@@ -17,7 +17,7 @@
 #+print_bibliography: keyword
 
 * Distributed Computing :@distributed__computing:
-** CLOSED teste latex :phd:distributed__computing:secret:
+** CLOSED teste latex :phd:secret:
 CLOSED: [2022-12-04 Sun 15:54]
 :properties:
 :EXPORT_FILE_NAME: latex_test

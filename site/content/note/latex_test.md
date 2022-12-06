@@ -1,8 +1,8 @@
 +++
 title = "teste latex"
 date = 2022-12-04T15:54:00+01:00
-lastmod = 2022-12-06T10:59:33+01:00
-tags = ["phd", "distributed computing", "secret"]
+lastmod = 2022-12-06T18:27:22+01:00
+tags = ["phd", "secret"]
 categories = ["distributed computing"]
 draft = false
 author = "Bernardo Hummes"
