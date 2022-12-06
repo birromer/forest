@@ -1,8 +1,8 @@
 +++
 title = "Two generals problem"
 date = 2022-12-06T10:55:00+01:00
-lastmod = 2022-12-06T10:56:12+01:00
-tags = ["distributed computing"]
+lastmod = 2022-12-06T12:11:56+01:00
+tags = ["problems", "agreement"]
 categories = ["distributed computing"]
 draft = false
 author = "Bernardo Hummes"

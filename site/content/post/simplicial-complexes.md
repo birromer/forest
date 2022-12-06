@@ -1,9 +1,10 @@
 +++
 title = "Simplicial complexes"
-lastmod = 2022-12-06T10:55:19+01:00
-tags = ["combinatoral topology", "distributed computing"]
-categories = ["distributed computing"]
-draft = true
+date = 2022-12-06T10:55:00+01:00
+lastmod = 2022-12-06T12:08:49+01:00
+tags = ["simplicial stuff", "robot states"]
+categories = ["algebraic topology"]
+draft = false
 author = "Bernardo Hummes"
 link-citations = true
 +++

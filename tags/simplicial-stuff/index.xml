@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>simplicial stuff on bernardo hummes</title>
+    <link>/tags/simplicial-stuff/</link>
+    <description>Recent content in simplicial stuff on bernardo hummes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 06 Dec 2022 10:55:00 +0100</lastBuildDate><atom:link href="/tags/simplicial-stuff/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simplicial complexes</title>
+      <link>/post/2022/12/06/simplicial-complexes/</link>
+      <pubDate>Tue, 06 Dec 2022 10:55:00 +0100</pubDate>
+      
+      <guid>/post/2022/12/06/simplicial-complexes/</guid>
+      <description>Notes Definitions Coloring Maps Constructions Notes Definitions The representation via graphs is limited to at most one failing process, allowing for more on the analysis of specific cases such as consensus with synchronous communication. In order to study general tasks with models where more than once process can fail, simplicial complexes are useful, as higher order graphs.
+A simplicial complex in the combinatorial view is a pair \(\cal K = (V,S)\), where \(V\) is a finite set of vertices and \(S \subseteq \mathcal{P}(V)\) is a set of simplices, non-empty subsets of \(V\), where:</description>
+    </item>
+    
+  </channel>
+</rss>

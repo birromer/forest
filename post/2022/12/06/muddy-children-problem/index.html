@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Muddy children problem | bernardo hummes</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">home</a></li>
+      
+      <li><a href="/about/">about</a></li>
+      
+      <li><a href="/post/">posts</a></li>
+      
+      <li><a href="/categories/">categories</a></li>
+      
+      <li><a href="/tags/">tags</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Muddy children problem</span></h1>
+<h3 class="date">06/12/2022</h3>
+<p class="terms">
+  
+  
+  Categories: <a href="/categories/distributed-computing">distributed computing</a> 
+  
+  
+  
+  Tags: <a href="/tags/problems">problems</a> <a href="/tags/agreement">agreement</a> 
+  
+  
+</p>
+</div>
+
+<main>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<ul>
+<li><a href="#notes">Notes</a></li>
+</ul>
+<!-- raw HTML omitted -->
+<h2 id="notes">Notes</h2>
+<p>This initial problem instantiates how knowledge evolves via communication of agents that begin without knowing their own states. One possible enunciation is as follows:</p>
+<blockquote>
+<p>A group of children is playing in the garden, and some of them end up with mud on their foreheads. Each child can see the other children&rsquo;s foreheads but not his or her own. At noon, their teacher summons the children and says: &ldquo;At least one of you has a muddy forehead. You are not allowed to communicate with one another about it in any manner. But whenever you become certain that you are dirty, you must announce it to everybody, exactly on the hour.&rdquo; The children resume playing normally, and nobody mentions the state of anyone&rsquo;s forehead. There are six muddy children, and at 6:00 they all announce themselves. How does this work?</p>
+</blockquote>
+<p>This is an idealized problem that shows how information can be gained from each round and that the announcement of existing at least one children with mud in their forehead allows this to happen. If we reduce this problem to only 3 children, it get easier to see how the problem is solved if at least a single one is muddy in the following steps:</p>
+<ol>
+<li>The professor announces that there is at least one muddy children, removing the option of everyone being clean.</li>
+<li>Everyone knows each other&rsquo;s foreheads, which means that each person can either:
+<ol>
+<li>See no other muddy forehead, which means that they are the muddy one and announce in the next communication round;</li>
+<li>See one or two other muddy foreheads, which does not give enough information about themselves.</li>
+</ol>
+</li>
+<li>Having seen one or two muddy foreheads they can:
+<ol>
+<li>If they saw only one other muddy, they know they must be the second and announce in the next round;</li>
+<li>If they saw two, they don&rsquo;t have enough information and wait.</li>
+</ol>
+</li>
+<li>Having seen two children with mud and two rounds with no announcements, they all announce that they have a muddy forehead.</li>
+</ol>
+<p>This is equivalently represented in the following simplicial complex, where each solid triangle has a possible configuration of the three children, each with one color, and considering that they don&rsquo;t know their own state. This representation consists of each vertex representing a possible state of the children, muddy or not. Each state is connected with edges to all others that could be true (it is indistinguishable) while they are true. The following image shows all possible scenarios.</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<figure><img src="/ox-hugo/complex_muddy.png"
+         alt="Figure 1: Evolution of the complex through the rounds of (lack of) communication, credit from &amp;lt;&amp;amp;herlihyDistributedComputingCombinatorial2014&amp;gt;."/><figcaption>
+            <p><!-- raw HTML omitted -->Figure 1: <!-- raw HTML omitted -->Evolution of the complex through the rounds of (lack of) communication, credit from &lt;&amp;herlihyDistributedComputingCombinatorial2014&gt;.</p>
+        </figcaption>
+</figure>
+
+<p>The triangle on top represents all three children are clean, while each individual vertex of this triangle represents each children being clean.
+The facets represent global states (in this case triangles), in the form \(111\) or \(01\bot\), where \(0\) and \(1\) represent muddy or not, and \(\bot\) the lack of information
+This shows how each vertex has meaning even without context.
+From this one must note that each vertex connects exactly two triangles, which are the two possible scenarios where this children is the only one that changes between muddy or not. These connections, when interpreted as possible worlds, show that for children A with no knowledge about itself, the world where children B sees no mud in the other ones, children C sees no mud on the other ones, children B sees mud in A but not in C, and children C sees mud in A but not in B are equivalent.</p>
+<p>As the announcement in step 1 happens, the top triangle is removed and the top vertices are &ldquo;exposed&rdquo;, left without ambiguity. This means that, in this case, a children will have enough information to announce it, as in step 2.a. This process repeats in the case of no announcements, leaving the possibilities of \(\bot01, 0\bot1, 01\bot, \bot10, 1\bot0, 10\bot\). If some of this scenarios is fulfilled, then there will be no more lack of information and they announce, as in step 3.1; In step 4 we see them simply having the option of being all muddy.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+
+</main>
+
+  <footer>
+  <script defer src="//yihui.org/js/math-code.js"></script>
+<script defer src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script defer src="//yihui.org/js/center-img.js"></script>
+
+  
+  <hr/>
+  <a href="https://github.com/birromer">github</a> | <a href="https://twitter.com/birromer">twitter</a> | <a href="https://www.linkedin.com/in/bernardo-h-57239312a">linkedin</a> | <a href="https://github.com/yihui/hugo-xmin/">theme</a>
+  
+  </footer>
+  </body>
+</html>
+

@@ -17,12 +17,12 @@
 #+print_bibliography: keyword
 
 * Distributed Computing :@distributed__computing:
-** CLOSED teste :phd:distributed__computing:secret:
+** CLOSED teste latex :phd:distributed__computing:secret:
 CLOSED: [2022-12-04 Sun 15:54]
 :properties:
-:EXPORT_FILE_NAME: two-generals-problem
+:EXPORT_FILE_NAME: latex_test
 :end:
-#+include: "~/mega/org/roam/main/two_generals_problem.org" :lines "4-"
+#+include: "~/mega/org/roam/main/example_latex.org" :lines "10-"
 
 * Category Theory :@category__theory:
 * Algebraic Topology :@algebraic__topology:

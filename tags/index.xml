@@ -6,13 +6,49 @@
     <description>Recent content in Tags on bernardo hummes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 Dec 2022 15:54:00 +0100</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Dec 2022 10:55:00 +0100</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>agreement</title>
+      <link>/tags/agreement/</link>
+      <pubDate>Tue, 06 Dec 2022 10:55:00 +0100</pubDate>
+      
+      <guid>/tags/agreement/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>distributed computing</title>
       <link>/tags/distributed-computing/</link>
-      <pubDate>Sun, 04 Dec 2022 15:54:00 +0100</pubDate>
+      <pubDate>Tue, 06 Dec 2022 10:55:00 +0100</pubDate>
       
       <guid>/tags/distributed-computing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>problems</title>
+      <link>/tags/problems/</link>
+      <pubDate>Tue, 06 Dec 2022 10:55:00 +0100</pubDate>
+      
+      <guid>/tags/problems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>robot states</title>
+      <link>/tags/robot-states/</link>
+      <pubDate>Tue, 06 Dec 2022 10:55:00 +0100</pubDate>
+      
+      <guid>/tags/robot-states/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>simplicial stuff</title>
+      <link>/tags/simplicial-stuff/</link>
+      <pubDate>Tue, 06 Dec 2022 10:55:00 +0100</pubDate>
+      
+      <guid>/tags/simplicial-stuff/</guid>
       <description></description>
     </item>
     

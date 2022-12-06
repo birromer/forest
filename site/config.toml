@@ -13,7 +13,7 @@ pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-paginate = 3
+paginate = 15
 
 enableEmoji = true
 
@@ -46,16 +46,20 @@ footnotereturnlinkcontents = "↩"
   url = "about/"
   weight = 2
 
-
 [[menu.main]]
   name = "posts"
   url = "post/"
   weight = 2
 
 [[menu.main]]
+  name = "categories"
+  url = "categories/"
+  weight = 3
+
+[[menu.main]]
   name = "tags"
   url = "tags/"
-  weight = 3
+  weight = 4
 
 # [module]
 #   [[module.imports]]

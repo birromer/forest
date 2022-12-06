@@ -8,24 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 04 Dec 2022 15:54:00 +0100</lastBuildDate><atom:link href="/tags/phd/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>teste</title>
-      <link>/note/2022/12/04/teste/</link>
+      <title>teste latex</title>
+      <link>/note/2022/12/04/teste-latex/</link>
       <pubDate>Sun, 04 Dec 2022 15:54:00 +0100</pubDate>
       
-      <guid>/note/2022/12/04/teste/</guid>
-      <description>Notes &amp;lt;!&amp;ndash;more&amp;ndash;&amp;gt; {{% hugo-encryptor &amp;ldquo;PASSWORD&amp;rdquo; %}}
-Notes This problem shows how in some cases failures in communication is enough for making it impossible to reach a decision. The enunciation of the problem is as follows.
-Two army division, one commanded by general ALice and one by general Bob, are camped on two hilltops overlooking a valley, The enemy is camped in the valley. If both divisions attack simultaneously, they will win, but if only one division attacks by itself, it will be defeated.</description>
-    </item>
-    
-    <item>
-      <title>Two generals problem</title>
-      <link>/post/2022/12/04/two-generals-problem/</link>
-      <pubDate>Sun, 04 Dec 2022 15:54:00 +0100</pubDate>
-      
-      <guid>/post/2022/12/04/two-generals-problem/</guid>
-      <description>Notes Notes This problem shows how in some cases failures in communication is enough for making it impossible to reach a decision. The enunciation of the problem is as follows.
-Two army division, one commanded by general ALice and one by general Bob, are camped on two hilltops overlooking a valley, The enemy is camped in the valley. If both divisions attack simultaneously, they will win, but if only one division attacks by itself, it will be defeated.</description>
+      <guid>/note/2022/12/04/teste-latex/</guid>
+      <description>Notes teste Notes \begin{tikzcd} A \arrow[r] &amp;amp; B \end{tikzcd}
+\begin{tikzcd} A \arrow[d, &amp;ldquo;g&amp;rdquo;] \arrow[r, &amp;ldquo;f&amp;rdquo;] &amp;amp; B \arrow[r, &amp;ldquo;\alpha&amp;rdquo;] \arrow[d, &amp;ldquo;\gamma&amp;rdquo;] &amp;amp; D \arrow[d, &amp;ldquo;\beta&amp;rdquo;] \\ C \arrow[rru, &amp;ldquo;h&amp;rdquo;] &amp;amp; B&amp;rsquo; \arrow[r, &amp;ldquo;\lambda&amp;rdquo;] &amp;amp; D&#39; \end{tikzcd}
+teste latex is something cool
+a</description>
     </item>
     
   </channel>
