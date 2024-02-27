@@ -1,5 +1,9 @@
 /* SPDX-License-Identifier: CC0-1.0 */
 
+.katex {
+ font-size: 1.15em !important;
+}
+
 /* inria-sans-300 - latin_latin-ext */
 @font-face {
   font-display: swap;
@@ -103,12 +107,24 @@ center {
 }
 
 pre {
+  border-radius: var(--radius);
+  background-color: rgba(0, 100, 100, 0.04);
+  padding: .5em;
   font-size: 11pt;
   margin-top: 0em;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
 }
 
 code {
-  font-size: 11pt;
+  border-radius: var(--radius);
+  background-color: rgba(0, 100, 100, 0.04);
+  padding: 0.2em;
+  font-size: 0.9em;
 }
 
 body {
@@ -135,8 +151,15 @@ body {
   display: none;
 }
 
-.block[data-taxon="Reference"]>details>summary>header>.leaf>span.taxon,
-.block[data-taxon="Person"]>details>summary>header>.leaf>span.taxon {
+article>section>details>summary>header>h1>.taxon {
+  display: block;
+  font-size: .9em;
+  color: #888;
+  padding-bottom: 5pt;
+}
+
+section section[data-taxon="Reference"]>details>summary>header>h1>.taxon,
+section section[data-taxon="Person"]>details>summary>header>h1>.taxon {
   display: none;
 }
 
@@ -206,7 +229,7 @@ details h1 {
   display: inline;
 }
 
-details h1.leaf {
+section .block[data-taxon] details>summary>header>h1 {
   font-size: 12pt;
 }
 
@@ -214,19 +237,13 @@ span.taxon {
   color: #444;
 }
 
-h1.tree span.taxon {
-  display: block;
-  font-size: .9em;
-  color: #888;
-  padding-bottom: 5pt;
-}
 
 .link-list>section>details>summary>header h1 {
   font-size: 12pt;
 }
 
 
-article>section>details>summary>header>h1.tree {
+article>section>details>summary>header>h1 {
   font-size: 1.5em;
 }
 
@@ -272,37 +289,46 @@ nav#toc a {
   color: #555;
 }
 
+nav#toc .link {
+ box-shadow: none;
+ text-decoration: none;
+}
+
+nav#toc a.bullet {
+ opacity: 0.7;
+ margin-left: 0.4em;
+ margin-right: 0.3em;
+ padding-left: 0.2em;
+ padding-right: 0.2em;
+ text-decoration: none;
+}
+
 nav#toc h2 {
   font-size: 1.1em;
 }
 
 nav#toc ul {
-  padding-left: 1.5em;
-  list-style-type: square;
+  list-style-type: none;
+}
+
+nav#toc li > ul {
+ padding-left: 1em;
+}
+
+nav#toc li {
+ list-style-position: inside;
 }
 
 .toc-item-label {
   font-weight: bolder;
 }
 
-.katex {
-  font-size: 1.2em;
-}
-
 .block {
   border-radius: var(--radius)
 }
 
-.block.splice {
-  padding-top: 1em;
-}
-
 .block:hover {
   background-color: rgba(0, 100, 255, 0.04);
-}
-
-.dark .block:hover {
-  background-color: rgba(255, 255, 255, 0.04);
 }
 
 .block.highlighted {
@@ -318,32 +344,6 @@ nav#toc ul {
 .highlighted:hover {
   background-color: rgba(255, 255, 140, .6);
   border-color: #aaa;
-}
-
-.dark .highlighted {
-  background-color: rgba(255, 174, 69, 0.2);
-  border-style: solid;
-  border-width: 1pt;
-  border-color: rgba(255, 174, 69, 0.3);
-}
-
-.dark .highlighted:hover {
-  background-color: rgba(255, 174, 69, 0.4);
-  border-color: rgba(255, 174, 69, 0.4);
-}
-
-.block>.block-uid {
-  visibility: hidden;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.block:hover>.block-uid {
-  visibility: visible;
-}
-
-.dark img.latex {
-  filter: invert(0.884);
 }
 
 .slug,
@@ -369,35 +369,17 @@ nav#toc ul {
   border-radius: 5px;
 }
 
-.block>.toggle-children-button {
-  padding-right: 3pt;
-  visibility: hidden;
-  float: right;
-}
-
-.block:hover>.toggle-children-button {
-  visibility: visible;
-}
-
-.dark .toggle-children-button {
-  filter: invert(1);
-}
-
-a.external {
+.link.external {
   text-decoration: underline;
 }
 
-a.toc {
-  box-shadow: none;
-  text-decoration: none;
-}
-
-a.local,
+a.link.local,
+.link.local a,
 a.slug {
   box-shadow: none;
-  text-decoration: underline;
+  text-decoration-line: underline;
   text-decoration-style: dotted;
-}
+ }
 
 ninja-keys::part(ninja-action) {
   white-space: nowrap;
@@ -448,10 +430,6 @@ td.macro-doc {
 
 .enclosing.macro-scope>.enclosing:hover {
   background-color: rgba(0, 100, 255, 0.1);
-}
-
-.dark .enclosing.macro-scope>.enclosing:hover {
-  background-color: rgba(255, 255, 255, 0.04);
 }
 
 [aria-label][role~="tooltip"]::after {
@@ -525,16 +503,24 @@ td.macro-doc {
   color: var(--secondary);
 }
 
-.tree-content blockquote {
+blockquote {
   border-inline-start: 1px solid var(--secondary);
 }
 
-a:hover {
+a.slug:hover,
+a.bullet:hover,
+.edit-button:hover,
+.link:hover {
   background-color: rgba(0, 100, 255, .1);
+}
+
+.link {
+ cursor: pointer;
 }
 
 a {
   color: black;
+  text-decoration: inherit;
 }
 
 .nowrap {
@@ -571,4 +557,50 @@ address {
 
 .metadata ul li {
   display: inline
+}
+
+img {
+  object-fit: cover;
+  max-width: 100%;
+}
+
+figcaption {
+  font-style: italic;
+  padding: 3px;
+  text-align: center;
+}
+
+mark {
+  background-color: rgb(255, 255, 151);
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: gainsboro;
+  border: 0 none;
+  width: 100%;
+  height: 2px;
+}
+
+ul, ol {
+ padding-bottom: .5em;
+}
+
+ol {
+ list-style-type: decimal;
+}
+
+ol li ol {
+ list-style-type: lower-alpha;
+}
+
+ol li ol li ol {
+ list-style-type: lower-roman;
+}
+
+.error {
+ background-color: red;
+ font-weight: bold;
+ color: white;
 }
