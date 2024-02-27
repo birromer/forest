@@ -1,0 +1,11 @@
+\title{Simplicial complex}
+\author{bernardohummes}
+\date{2023-09-04}
+\taxon{definition}
+
+\p{A \em{Simplicial complex} is a pair #{\mathcal{K}=(V,S)}, where #{V} is a finite set of vertices and #{S \subseteq \mathcal{P}(V)} is a set of simplices, non-empty subsets of #{V}, where:}
+
+\ol{
+  \li{For every #{v \in V, v \in S}}
+  \li{#{S} is downards closed, i.e. for every #{Y \in S} and for every non-empty subset #{X \subseteq Y, X \in S}.}
+}
