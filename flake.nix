@@ -20,7 +20,6 @@
       pkgs = import nixpkgs { inherit system; };
       wrangler-pkgs = import wrangler-nixpkgs { inherit system; };
       forester-pkg = forester.packages.${system}.default;
-      default-tree = "bhf";
       tlDist = pkgs.texliveFull;
     in {
       packages = flake-utils.lib.flattenTree rec {
@@ -30,7 +29,7 @@
         '';
         build = pkgs.writeScriptBin "build"
         ''
-          ${forester-pkg}/bin/forester build --dev --root ${default-tree}-0001 trees/
+          ${forester-pkg}/bin/forester build --dev forest.toml 
         '';
         serve = pkgs.writeScriptBin "serve"
         ''
@@ -38,7 +37,7 @@
         '';
         forester-dev = pkgs.writeScriptBin "forester-dev"
         ''
-          ${forest-server.packages.${system}.default}/bin/forest watch $@ -- "build --dev --root ${default-tree}-0001 trees/"
+          ${forest-server.packages.${system}.default}/bin/forest watch $@ -- "build --dev forest.toml"
         '';
 
         default = pkgs.stdenv.mkDerivation {
@@ -46,7 +45,7 @@
           src = ./.;
           buildInputs = [tlDist];
           buildPhase = ''
-            ${forester-pkg}/bin/forester build --root ${default-tree}-0001 trees/
+            ${forester-pkg}/bin/forester build forest.toml
             mv output/ $out/
             mv _redirects $out
           '';
