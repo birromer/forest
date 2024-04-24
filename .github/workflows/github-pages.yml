@@ -28,6 +28,7 @@ jobs:
 
       - name: Install Forester
         run: |
+          apt update && apt install -y libev-dev
           git clone https://git.sr.ht/~jonsterling/ocaml-forester
           cd ocaml-forester
           opam pin add -y . --locked
