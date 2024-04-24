@@ -1,5 +1,5 @@
 [forest]
-trees = ["trees"]
+trees = ["trees", "notes"]
 assets = ["assets"]
 theme = "theme"
 root = "bhf-0001"
