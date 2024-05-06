@@ -2,6 +2,8 @@
 <!-- SPDX-License-Identifier: CC0-1.0 -->
 <xsl:stylesheet version="1.0"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<script type="module" src="forester.js"></script>
+<script src="reload.js"></script>
   <xsl:output method="html" encoding="utf-8" indent="yes" doctype-public="" doctype-system="" />
   <!-- The following ensures that node not matched by a template will simply be
    copied into the output. -->
