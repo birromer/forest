@@ -3,9 +3,9 @@ name: github pages
 # Controls when the workflow will run
 on:
   push:
-    branches: [ "master" ]
+    branches:
+      - main  # Set a branch that will trigger a deployment
   pull_request:
-    branches: [ "master" ]
     
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -28,10 +28,10 @@ jobs:
 
       - name: Install Forester
         run: |
-          apt update && apt install -y libev-dev
           git clone https://git.sr.ht/~jonsterling/ocaml-forester
           cd ocaml-forester
-          opam pin add -y . --locked
+          opam pin add -y .
+          #          apt update && apt install -y libev-dev
           
       - name: Setup TeX Live
         uses: teatimeguest/setup-texlive-action@v2
@@ -62,7 +62,7 @@ jobs:
         run: latex --version
 
       - name: Build with Forester
-        run: opam exec -- forester build
+        run: opam exec -- forester build forest.toml
 
       - name: Setup upterm session
         if: failure()
@@ -75,3 +75,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./output
           cname: bernardohummes.com
+
