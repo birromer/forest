@@ -24,7 +24,7 @@ jobs:
       - name: Set-up OCaml
         uses: ocaml/setup-ocaml@v2
         with:
-          ocaml-compiler: "5.1"
+          ocaml-compiler: "5.2"
 
       - name: Install Forester
         run: |
@@ -62,7 +62,7 @@ jobs:
         run: latex --version
 
       - name: Build with Forester
-        run: opam exec -- forester build --base-url="https://bernardohummes.com" --root=bhf-0001 trees
+        run: opam exec -- forester build
 
       - name: Setup upterm session
         if: failure()
