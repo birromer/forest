@@ -5,3 +5,4 @@ theme = "theme"
 root = "bhf-0001"
 base_url = "https://www.bernardohummes.com"
 stylesheet = "jms-forest.xsl"
+prefixes = ["bhf"]
