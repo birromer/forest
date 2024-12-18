@@ -1,5 +1,11 @@
 \title{Hi.}
 \author{bernardohummes}
 
-\p{This is the root of my website.}
-\p{You can find more about me [here](bernardohummes).}
+\p{
+  I'm a PhD student at [LIX](https://www.lix.polytechnique.fr/) working on formal methods for mobile robotics with [Eric Goubault](ericgoubault), [Sylvie Putot](sylvieputot) and [Luc Jaulin](lucjaulin).
+  I study the characterization of tasks in swarm robotics, linking with methods in distributed computing and the underlying structures in modal logics and topology.}
+
+\p{
+  Previously, I completed my masters/engineering degree in autonomous robotics in [ENSTA Bretagne](https://www.ensta-bretagne.fr/sperob), where I worked with [Luc Jaulin](lucjaulin) on interval methods for robot localization.
+  Before that, I did a bachelors in computer science in [UFRGS](https://www.inf.ufrgs.br/site/), where I worked in its [robotics lab](https://www.inf.ufrgs.br/phi-group/site/) on hybrid methods for robot localization and monocular vision in loop closure.
+}
