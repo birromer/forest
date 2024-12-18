@@ -7,31 +7,33 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>180</fr:anchor><fr:addr>sylvieputot</fr:addr><fr:route>sylvieputot.xml</fr:route><fr:title>Sylvie Putot</fr:title><fr:taxon>Person</fr:taxon><fr:authors /><fr:meta
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>261</fr:anchor><fr:addr
+type="user">sylvieputot</fr:addr><fr:route>sylvieputot.xml</fr:route><fr:title
+text="Sylvie Putot">Sylvie Putot</fr:title><fr:taxon>Person</fr:taxon><fr:authors /><fr:meta
 name="external">http://www.lix.polytechnique.fr/Labo/Sylvie.Putot/</fr:meta><fr:meta
 name="institution">École Polytechnique</fr:meta><fr:meta
-name="position">Professor</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>
-  Professor of computer science in École Polytechnique.
-</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+name="position">Professor</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Professor of computer science in École Polytechnique.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title>Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>181</fr:anchor><fr:addr>bernardohummes</fr:addr><fr:route>bernardohummes.xml</fr:route><fr:title>Bernardo Hummes Flores</fr:title><fr:taxon>Person</fr:taxon><fr:authors /><fr:meta
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>262</fr:anchor><fr:addr
+type="user">bernardohummes</fr:addr><fr:route>bernardohummes.xml</fr:route><fr:title
+text="Bernardo Hummes Flores">Bernardo Hummes Flores</fr:title><fr:taxon>Person</fr:taxon><fr:authors /><fr:meta
 name="external">https://www.bernardohummes.com/</fr:meta><fr:meta
 name="institution">École Polytechnique</fr:meta><fr:meta
 name="orcid">0000-0003-2325-1497</fr:meta><fr:meta
-name="position">PhD student</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>
-  I'm a PhD student at <fr:link
+name="position">PhD student</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>I'm a PhD student at <fr:link
 type="external"
 href="https://www.lix.polytechnique.fr/">LIX</fr:link> working on formal methods for mobile robotics with <fr:link
 type="local"
@@ -46,8 +48,7 @@ type="local"
 href="lucjaulin.xml"
 addr="lucjaulin"
 title="Luc Jaulin">Luc Jaulin</fr:link>.
-  I study the characterization of tasks in swarm robotics, linking with methods in distributed computing and the underlying structures in modal logics and topology.</fr:p><fr:p>
-  Previously, I completed my masters/engineering degree in autonomous robotics in <fr:link
+  I study the characterization of tasks in swarm robotics, linking with methods in distributed computing and the underlying structures in modal logics and topology.</fr:p><fr:p>Previously, I completed my masters/engineering degree in autonomous robotics in <fr:link
 type="external"
 href="https://www.ensta-bretagne.fr/sperob">ENSTA Bretagne</fr:link>, where I worked with <fr:link
 type="local"
@@ -58,5 +59,4 @@ title="Luc Jaulin">Luc Jaulin</fr:link> on interval methods for robot localizati
 type="external"
 href="https://www.inf.ufrgs.br/site/">UFRGS</fr:link>, where I worked in its <fr:link
 type="external"
-href="https://www.inf.ufrgs.br/phi-group/site/">robotics lab</fr:link> on hybrid methods for robot localization and monocular vision in loop closure.
-</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+href="https://www.inf.ufrgs.br/phi-group/site/">robotics lab</fr:link> on hybrid methods for robot localization and monocular vision in loop closure.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
