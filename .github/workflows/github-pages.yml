@@ -1,7 +1,6 @@
 name: github pages
 
 # Controls when the workflow will run
-# Controls when the workflow will run
 on:
   push:
     branches: [ "master" ]
