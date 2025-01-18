@@ -1,156 +1,139 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>247</fr:anchor><fr:addr
-type="user">bernardohummes</fr:addr><fr:route>bernardohummes.xml</fr:route><fr:title
-text="Bernardo Hummes Flores">Bernardo Hummes Flores</fr:title><fr:taxon>Person</fr:taxon><fr:authors /><fr:meta
-name="external">https://www.bernardohummes.com/</fr:meta><fr:meta
-name="institution">École Polytechnique</fr:meta><fr:meta
-name="orcid">0000-0003-2325-1497</fr:meta><fr:meta
-name="position">PhD student</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>I'm a PhD student at <fr:link
-type="external"
-href="https://www.lix.polytechnique.fr/">LIX</fr:link> working on formal methods for mobile robotics with <fr:link
-type="local"
-href="ericgoubault.xml"
-addr="ericgoubault"
-title="Éric Goubault">Eric Goubault</fr:link>, <fr:link
-type="local"
-href="sylvieputot.xml"
-addr="sylvieputot"
-title="Sylvie Putot">Sylvie Putot</fr:link> and <fr:link
-type="local"
-href="lucjaulin.xml"
-addr="lucjaulin"
-title="Luc Jaulin">Luc Jaulin</fr:link>.
-  I study the characterization of tasks in swarm robotics, linking with methods in distributed computing and the underlying structures in modal logics and topology.</fr:p><fr:p>Previously, I completed my masters/engineering degree in autonomous robotics in <fr:link
-type="external"
-href="https://www.ensta-bretagne.fr/sperob">ENSTA Bretagne</fr:link>, where I worked with <fr:link
-type="local"
-href="lucjaulin.xml"
-addr="lucjaulin"
-title="Luc Jaulin">Luc Jaulin</fr:link> on interval methods for robot localization.
-  Before that, I did a bachelors in computer science in <fr:link
-type="external"
-href="https://www.inf.ufrgs.br/site/">UFRGS</fr:link>, where I worked in its <fr:link
-type="external"
-href="https://www.inf.ufrgs.br/phi-group/site/">robotics lab</fr:link> on hybrid methods for robot localization and monocular vision in loop closure.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>248</fr:anchor><fr:addr
-type="user">lucjaulin</fr:addr><fr:route>lucjaulin.xml</fr:route><fr:title
-text="Luc Jaulin">Luc Jaulin</fr:title><fr:taxon>Person</fr:taxon><fr:authors /><fr:meta
-name="external">https://www.ensta-bretagne.fr/jaulin/</fr:meta><fr:meta
-name="institution">ENSTA Bretagne</fr:meta><fr:meta
-name="orcid">0000-0002-0938-0615</fr:meta><fr:meta
-name="position">Professor</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Coordinator of the autonomous robotics specialization in ENSTA Bretagne.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>249</fr:anchor><fr:addr
-type="user">sylvieputot</fr:addr><fr:route>sylvieputot.xml</fr:route><fr:title
-text="Sylvie Putot">Sylvie Putot</fr:title><fr:taxon>Person</fr:taxon><fr:authors /><fr:meta
-name="external">http://www.lix.polytechnique.fr/Labo/Sylvie.Putot/</fr:meta><fr:meta
-name="institution">École Polytechnique</fr:meta><fr:meta
-name="position">Professor</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Professor of computer science in École Polytechnique.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>250</fr:anchor><fr:addr
-type="user">ericgoubault</fr:addr><fr:route>ericgoubault.xml</fr:route><fr:title
-text="Éric Goubault">Éric Goubault</fr:title><fr:taxon>Person</fr:taxon><fr:authors /><fr:meta
-name="external">http://www.lix.polytechnique.fr/Labo/Eric.Goubault/</fr:meta><fr:meta
-name="institution">École Polytechnique</fr:meta><fr:meta
-name="position">Professor</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Professor of computer science in École Polytechnique.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Contributions">Contributions</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>251</fr:anchor><fr:addr
-type="user">bhf-0002</fr:addr><fr:route>bhf-0002.xml</fr:route><fr:title
-text="Simplicial complex">Simplicial complex</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2023</fr:year><fr:month>9</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="bernardohummes.xml"
-addr="bernardohummes"
-title="Bernardo Hummes Flores">Bernardo Hummes Flores</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A <fr:em>Simplicial complex</fr:em> is a pair <fr:tex
-display="inline"><![CDATA[\mathcal {K}=(V,S)]]></fr:tex>, where <fr:tex
-display="inline"><![CDATA[V]]></fr:tex> is a finite set of vertices and <fr:tex
-display="inline"><![CDATA[S \subseteq  \mathcal {P}(V)]]></fr:tex> is a set of simplices, non-empty subsets of <fr:tex
-display="inline"><![CDATA[V]]></fr:tex>, where:</fr:p><fr:ol><fr:li>For every <fr:tex
-display="inline"><![CDATA[v \in  V, v \in  S]]></fr:tex></fr:li>
-  <fr:li><fr:tex
-display="inline"><![CDATA[S]]></fr:tex> is downards closed, i.e. for every <fr:tex
-display="inline"><![CDATA[Y \in  S]]></fr:tex> and for every non-empty subset <fr:tex
-display="inline"><![CDATA[X \subseteq  Y, X \in  S]]></fr:tex>.</fr:li></fr:ol></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="true"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>253</fr:anchor><fr:addr
-type="user">bhf-0001</fr:addr><fr:route>index.xml</fr:route><fr:title
-text="Hi.">Hi.</fr:title><fr:authors><fr:author><fr:link
-type="local"
-href="bernardohummes.xml"
-addr="bernardohummes"
-title="Bernardo Hummes Flores">Bernardo Hummes Flores</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>I'm a PhD student at <fr:link
-type="external"
-href="https://www.lix.polytechnique.fr/">LIX</fr:link> working on formal methods for mobile robotics with <fr:link
-type="local"
-href="ericgoubault.xml"
-addr="ericgoubault"
-title="Éric Goubault">Eric Goubault</fr:link>, <fr:link
-type="local"
-href="sylvieputot.xml"
-addr="sylvieputot"
-title="Sylvie Putot">Sylvie Putot</fr:link> and <fr:link
-type="local"
-href="lucjaulin.xml"
-addr="lucjaulin"
-title="Luc Jaulin">Luc Jaulin</fr:link>.
-  I study the characterization of tasks in swarm robotics, linking with methods in distributed computing and the underlying structures in modal logics and topology.</fr:p><fr:p>Previously, I completed my masters/engineering degree in autonomous robotics in <fr:link
-type="external"
-href="https://www.ensta-bretagne.fr/sperob">ENSTA Bretagne</fr:link>, where I worked with <fr:link
-type="local"
-href="lucjaulin.xml"
-addr="lucjaulin"
-title="Luc Jaulin">Luc Jaulin</fr:link> on interval methods for robot localization.
-  Before that, I did a bachelors in computer science in <fr:link
-type="external"
-href="https://www.inf.ufrgs.br/site/">UFRGS</fr:link>, where I worked in its <fr:link
-type="external"
-href="https://www.inf.ufrgs.br/phi-group/site/">robotics lab</fr:link> on hybrid methods for robot localization and monocular vision in loop closure.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>247</fr:anchor>
+    <fr:addr type="user">bernardohummes</fr:addr>
+    <fr:route>bernardohummes.xml</fr:route>
+    <fr:title text="Bernardo Hummes Flores">Bernardo Hummes Flores</fr:title>
+    <fr:taxon>Person</fr:taxon>
+    <fr:authors />
+    <fr:meta name="external">https://www.bernardohummes.com/</fr:meta>
+    <fr:meta name="institution">École Polytechnique</fr:meta>
+    <fr:meta name="orcid">0000-0003-2325-1497</fr:meta>
+    <fr:meta name="position">PhD student</fr:meta>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>I'm a PhD student at <fr:link type="external" href="https://www.lix.polytechnique.fr/">LIX</fr:link> working on formal methods for mobile robotics with <fr:link type="local" href="ericgoubault.xml" addr="ericgoubault" title="Éric Goubault">Eric Goubault</fr:link>, <fr:link type="local" href="sylvieputot.xml" addr="sylvieputot" title="Sylvie Putot">Sylvie Putot</fr:link> and <fr:link type="local" href="lucjaulin.xml" addr="lucjaulin" title="Luc Jaulin">Luc Jaulin</fr:link>.
+  I study the characterization of tasks in swarm robotics, linking with methods in distributed computing and the underlying structures in modal logics and topology.</fr:p>
+    <fr:p>Previously, I completed my masters/engineering degree in autonomous robotics in <fr:link type="external" href="https://www.ensta-bretagne.fr/sperob">ENSTA Bretagne</fr:link>, where I worked with <fr:link type="local" href="lucjaulin.xml" addr="lucjaulin" title="Luc Jaulin">Luc Jaulin</fr:link> on interval methods for robot localization.
+  Before that, I did a bachelors in computer science in <fr:link type="external" href="https://www.inf.ufrgs.br/site/">UFRGS</fr:link>, where I worked in its <fr:link type="external" href="https://www.inf.ufrgs.br/phi-group/site/">robotics lab</fr:link> on hybrid methods for robot localization and monocular vision in loop closure.</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>248</fr:anchor>
+            <fr:addr type="user">lucjaulin</fr:addr>
+            <fr:route>lucjaulin.xml</fr:route>
+            <fr:title text="Luc Jaulin">Luc Jaulin</fr:title>
+            <fr:taxon>Person</fr:taxon>
+            <fr:authors />
+            <fr:meta name="external">https://www.ensta-bretagne.fr/jaulin/</fr:meta>
+            <fr:meta name="institution">ENSTA Bretagne</fr:meta>
+            <fr:meta name="orcid">0000-0002-0938-0615</fr:meta>
+            <fr:meta name="position">Professor</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Coordinator of the autonomous robotics specialization in ENSTA Bretagne.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>249</fr:anchor>
+            <fr:addr type="user">sylvieputot</fr:addr>
+            <fr:route>sylvieputot.xml</fr:route>
+            <fr:title text="Sylvie Putot">Sylvie Putot</fr:title>
+            <fr:taxon>Person</fr:taxon>
+            <fr:authors />
+            <fr:meta name="external">http://www.lix.polytechnique.fr/Labo/Sylvie.Putot/</fr:meta>
+            <fr:meta name="institution">École Polytechnique</fr:meta>
+            <fr:meta name="position">Professor</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Professor of computer science in École Polytechnique.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>250</fr:anchor>
+            <fr:addr type="user">ericgoubault</fr:addr>
+            <fr:route>ericgoubault.xml</fr:route>
+            <fr:title text="Éric Goubault">Éric Goubault</fr:title>
+            <fr:taxon>Person</fr:taxon>
+            <fr:authors />
+            <fr:meta name="external">http://www.lix.polytechnique.fr/Labo/Eric.Goubault/</fr:meta>
+            <fr:meta name="institution">École Polytechnique</fr:meta>
+            <fr:meta name="position">Professor</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Professor of computer science in École Polytechnique.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Contributions">Contributions</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>251</fr:anchor>
+            <fr:addr type="user">bhf-0002</fr:addr>
+            <fr:route>bhf-0002.xml</fr:route>
+            <fr:title text="Simplicial complex">Simplicial complex</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2023</fr:year>
+              <fr:month>9</fr:month>
+              <fr:day>4</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>
+                <fr:link type="local" href="bernardohummes.xml" addr="bernardohummes" title="Bernardo Hummes Flores">Bernardo Hummes Flores</fr:link>
+              </fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A <fr:em>Simplicial complex</fr:em> is a pair <fr:tex display="inline"><![CDATA[\mathcal {K}=(V,S)]]></fr:tex>, where <fr:tex display="inline"><![CDATA[V]]></fr:tex> is a finite set of vertices and <fr:tex display="inline"><![CDATA[S \subseteq  \mathcal {P}(V)]]></fr:tex> is a set of simplices, non-empty subsets of <fr:tex display="inline"><![CDATA[V]]></fr:tex>, where:</fr:p>
+            <fr:ol><fr:li>For every <fr:tex display="inline"><![CDATA[v \in  V, v \in  S]]></fr:tex></fr:li>
+  <fr:li><fr:tex display="inline"><![CDATA[S]]></fr:tex> is downards closed, i.e. for every <fr:tex display="inline"><![CDATA[Y \in  S]]></fr:tex> and for every non-empty subset <fr:tex display="inline"><![CDATA[X \subseteq  Y, X \in  S]]></fr:tex>.</fr:li></fr:ol>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="true" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>253</fr:anchor>
+            <fr:addr type="user">bhf-0001</fr:addr>
+            <fr:route>index.xml</fr:route>
+            <fr:title text="Hi.">Hi.</fr:title>
+            <fr:authors>
+              <fr:author>
+                <fr:link type="local" href="bernardohummes.xml" addr="bernardohummes" title="Bernardo Hummes Flores">Bernardo Hummes Flores</fr:link>
+              </fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>I'm a PhD student at <fr:link type="external" href="https://www.lix.polytechnique.fr/">LIX</fr:link> working on formal methods for mobile robotics with <fr:link type="local" href="ericgoubault.xml" addr="ericgoubault" title="Éric Goubault">Eric Goubault</fr:link>, <fr:link type="local" href="sylvieputot.xml" addr="sylvieputot" title="Sylvie Putot">Sylvie Putot</fr:link> and <fr:link type="local" href="lucjaulin.xml" addr="lucjaulin" title="Luc Jaulin">Luc Jaulin</fr:link>.
+  I study the characterization of tasks in swarm robotics, linking with methods in distributed computing and the underlying structures in modal logics and topology.</fr:p>
+            <fr:p>Previously, I completed my masters/engineering degree in autonomous robotics in <fr:link type="external" href="https://www.ensta-bretagne.fr/sperob">ENSTA Bretagne</fr:link>, where I worked with <fr:link type="local" href="lucjaulin.xml" addr="lucjaulin" title="Luc Jaulin">Luc Jaulin</fr:link> on interval methods for robot localization.
+  Before that, I did a bachelors in computer science in <fr:link type="external" href="https://www.inf.ufrgs.br/site/">UFRGS</fr:link>, where I worked in its <fr:link type="external" href="https://www.inf.ufrgs.br/phi-group/site/">robotics lab</fr:link> on hybrid methods for robot localization and monocular vision in loop closure.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>
