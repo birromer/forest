@@ -9,3 +9,23 @@
   Previously, I completed my masters/engineering degree in autonomous robotics in [ENSTA Bretagne](https://www.ensta-bretagne.fr/sperob), where I worked with [Luc Jaulin](lucjaulin) on interval methods for robot localization.
   Before that, I did a bachelors in computer science in [UFRGS](https://www.inf.ufrgs.br/site/en), where I worked in its [robotics lab](https://www.inf.ufrgs.br/phi-group/site/) on hybrid methods for robot localization and monocular vision in loop closure.
 }
+
+\subtree{
+  \title{publications}
+  \query\datalog{
+    ?X -:
+    {\rel/has-author ?X @{bernardohummes}}
+    {\rel/is-reference ?X}
+    {\rel/accepted-or-refereed ?X}
+  }
+}
+
+\subtree{
+  \title{Preprints}
+  \query\datalog{
+    ?X -:
+    {\rel/has-author ?X @{bernardohummes}}
+    {\rel/is-reference ?X}
+    {\rel/has-tag ?X '{preprint}}
+  }
+}
