@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="true" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>255</fr:anchor>
+    <fr:anchor>270</fr:anchor>
     <fr:addr type="user">bhf-0001</fr:addr>
     <fr:route>index.xml</fr:route>
     <fr:title text="Hi.">Hi.</fr:title>
@@ -15,6 +15,7 @@
   <fr:mainmatter>
     <fr:p>I'm a PhD student at <fr:link type="external" href="https://www.lix.polytechnique.fr/">LIX</fr:link> working on formal methods for mobile robotics with <fr:link type="local" href="ericgoubault.xml" addr="ericgoubault" title="Éric Goubault">Eric Goubault</fr:link>, <fr:link type="local" href="sylvieputot.xml" addr="sylvieputot" title="Sylvie Putot">Sylvie Putot</fr:link> and <fr:link type="local" href="lucjaulin.xml" addr="lucjaulin" title="Luc Jaulin">Luc Jaulin</fr:link>.
   I study the characterization of tasks in swarm robotics, linking with methods in distributed computing and the underlying structures in modal logics and topology.</fr:p>
+    <fr:p>You can see my works in <fr:link type="external" href="https://dblp.org/pid/294/4541.html">dblp</fr:link>.</fr:p>
     <fr:p>Previously, I completed my masters/engineering degree in autonomous robotics in <fr:link type="external" href="https://www.ensta-bretagne.fr/sperob">ENSTA Bretagne</fr:link>, where I worked with <fr:link type="local" href="lucjaulin.xml" addr="lucjaulin" title="Luc Jaulin">Luc Jaulin</fr:link> on interval methods for robot localization.
   Before that, I did a bachelors in computer science in <fr:link type="external" href="https://www.inf.ufrgs.br/site/en">UFRGS</fr:link>, where I worked in its <fr:link type="external" href="https://www.inf.ufrgs.br/phi-group/site/">robotics lab</fr:link> on hybrid methods for robot localization and monocular vision in loop closure.</fr:p>
   </fr:mainmatter>
