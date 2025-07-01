@@ -1,0 +1,33 @@
+\title{A categorical and logical framework for iterated protocols}
+\date{2025-05-15}
+\taxon{reference}
+
+\author{ericgoubault}
+\author{bernardohummes}
+\author{romankniazev}
+\author{jeremyledent}
+\author{sergiorajsbaum}
+
+\tag{preprint}
+\tag{distributed-system}
+\tag{protocol-complex}
+\tag{free-algebras}
+\tag{temporal-logics}
+\tag{epistemic-logics}
+
+\meta{bibtex}\verb<<<|
+@unpublished{goubault-hummesflores-kniazev-ledent-rajsbaum-2025,
+  author = {Goubault, Eric and Hummes Flores, Bernardo and Kniazev, Roman and Ledent, Jeremy and Rajsbaum, Sergio},
+  year = {2025},
+  month = may,
+  doi = {10.48550/arXiv.2505.10071},
+  eprint = {2505.10071},
+  eprintclass = {cs.LO},
+  eprinttype = {arXiv},
+  note = {Unpublished manuscript},
+  title = {A categorical and logical framework for iterated protocols},
+}<<<
+
+\meta{doi}{10.48550/arXiv.2505.10071}
+
+\p{In this article, we show that the now classical protocol complex approach to distributed task solvability of Herlihy et al. can be understood in standard categorical terms. First, protocol complexes are functors, from chromatic (semi-) simplicial sets to chromatic simplicial sets, that naturally give rise to algebras. These algebras describe the next state operator for the corresponding distributed systems. This is constructed for semi-synchronous distributed systems with general patterns of communication for which we show that these functors are always Yoneda extensions of simpler functors, implying a number of interesting properties. Furthermore, for these protocol complex functors, we prove the existence of a free algebra on any initial chromatic simplicial complex, modeling iterated protocol complexes. Under this categorical formalization, protocol complexes are seen as transition systems, where states are structured as chromatic simplicial sets. We exploit the epistemic interpretation of chromatic simplicial sets and the underlying transition system (or algebra) structure to introduce a temporal-epistemic logic and its semantics on all free algebras on chromatic simplicial sets. We end up by giving hints on how to extend this framework to more general dynamic network graphs and state-dependent protocols, and give example in fault-tolerant distributed systems and mobile robotics. }

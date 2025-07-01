@@ -1,0 +1,35 @@
+\title{A Sheaf-Theoretic Characterization of Tasks in Distributed Systems}
+\date{2025-03-04}
+\taxon{reference}
+
+\author{stephanfelber}
+\author{bernardohummes}
+\author{hugorincongaleana}
+
+\tag{preprint}
+\tag{task-solvability}
+\tag{locality}
+\tag{distributed-computing}
+\tag{sheaf-theory}
+\tag{kripke-frame}
+\tag{applied-category-theory}
+\tag{cohomology-theory}
+
+\meta{bibtex}\verb<<<|
+@unpublished{cignarale-felber-goubault-hummesflores-rincongaleana-2025,
+  author = {Felber, Stephan and Hummes Flores, Bernardo and Rincon Galeana, Hugo},
+  year = {2025},
+  month = march,
+  doi = {10.48550/arXiv.2503.02556},
+  eprint = {2503.02556},
+  eprintclass = {cs.DC},
+  eprinttype = {arXiv},
+  note = {Unpublished manuscript},
+  title = {A Sheaf-Theoretic Characterization of Tasks in Distributed Systems},
+}<<<
+
+\meta{doi}{10.48550/arXiv.2503.02556}
+
+\p{Task solvability lies at the heart of distributed computing, with direct implications for both theoretical understanding and practical system design. The field has evolved multiple theoretical frameworks for this purpose, including topological approaches, epistemic logic, and adversarial models, but these often address specific problem classes, limiting cross-domain applications. Our approach provides a unifying mathematical perspective across message-passing system models. We introduce a unifying sheaf-theoretic perspective that represents task solvability across message-passing system models while maintaining clear connections to the underlying distributed computing principles.
+A fundamental challenge in distributed computing is constructing global solutions from local computations and information. Sheaf theory addresses this challenge by providing a mathematical framework for assessing globally consistent properties from locally defined data, offering a natural language to describe and reason about distributed tasks. Sheaves have proven valuable in studying similar local-to-global phenomena, from opinion dynamics to contextuality in quantum mechanics and sensor integration. We now extend this framework to distributed systems.
+In this paper, we introduce a sheaf-theoretic characterization of task solvability in any model with a message based adversary. We provide a novel construction of a task sheaf, and prove that non-trivial sections correspond to valid solutions of a task, while obstructions to global sections represent system limitations that make tasks unsolvable. Furthermore, we also show that the cohomology of a task sheaf may be used to compute solving protocols. This opens space for new connections between distributed computing and sheaf theory for both protocol design and impossibility analysis.}
