@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:uri>https://www.bernardohummes.com/sylvieputot/</fr:uri>
+    <fr:display-uri>sylvieputot</fr:display-uri>
+    <fr:route>/sylvieputot/</fr:route>
+    <fr:title text="Sylvie Putot">Sylvie Putot</fr:title>
+    <fr:taxon>person</fr:taxon>
+    <fr:meta name="external">http://www.lix.polytechnique.fr/Labo/Sylvie.Putot/</fr:meta>
+    <fr:meta name="institution">École Polytechnique</fr:meta>
+    <fr:meta name="position">Professor</fr:meta>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  Professor of computer science in École Polytechnique.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/bernardohummes/" title="Bernardo Hummes Flores" uri="https://www.bernardohummes.com/bernardohummes/" display-uri="bernardohummes" type="local">Bernardo Hummes Flores</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:uri>https://www.bernardohummes.com/bhf-0001/</fr:uri>
+            <fr:display-uri>bhf-0001</fr:display-uri>
+            <fr:route>/bhf-0001/</fr:route>
+            <fr:title text="Hi.">Hi.</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  I'm a PhD student at <fr:link href="https://www.lix.polytechnique.fr/" type="external">LIX</fr:link> working on formal methods for mobile robotics with <fr:link href="/ericgoubault/" title="Éric Goubault" uri="https://www.bernardohummes.com/ericgoubault/" display-uri="ericgoubault" type="local">Eric Goubault</fr:link>, <fr:link href="/sylvieputot/" title="Sylvie Putot" uri="https://www.bernardohummes.com/sylvieputot/" display-uri="sylvieputot" type="local">Sylvie Putot</fr:link> and <fr:link href="/lucjaulin/" title="Luc Jaulin" uri="https://www.bernardohummes.com/lucjaulin/" display-uri="lucjaulin" type="local">Luc Jaulin</fr:link>.
+  I study the characterization of tasks in swarm robotics, linking with methods in distributed computing and the underlying structures in modal logics and topology.</html:p>
+            <html:p>You can see my works in <fr:link href="https://dblp.org/pid/294/4541.html" type="external">dblp</fr:link> and my CV <fr:link href="assets/cv.pdf" type="external">here</fr:link></html:p>
+            <html:p>
+  Previously, I completed my masters/engineering degree in autonomous robotics in <fr:link href="https://www.ensta-bretagne.fr/sperob" type="external">ENSTA Bretagne</fr:link>, where I worked with <fr:link href="/lucjaulin/" title="Luc Jaulin" uri="https://www.bernardohummes.com/lucjaulin/" display-uri="lucjaulin" type="local">Luc Jaulin</fr:link> on interval methods for robot localization.
+  Before that, I did a bachelors in computer science in <fr:link href="https://www.inf.ufrgs.br/site/en" type="external">UFRGS</fr:link>, where I worked in its <fr:link href="https://www.inf.ufrgs.br/phi-group/site/" type="external">robotics lab</fr:link> on hybrid methods for robot localization and monocular vision in loop closure.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>
