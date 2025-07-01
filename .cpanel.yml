@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ojiwntjway/bernardohummes.com/
+    - /bin/mkdir -p $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH
+    - /bin/find $DEPLOYPATH -name ".git*" -exec rm -rf {} + 2>/dev/null || true
+    - /bin/rm -f $DEPLOYPATH/.cpanel.yml
