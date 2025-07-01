@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/ericgoubault/" title="Éric Goubault" uri="https://www.bernardohummes.com/ericgoubault/" display-uri="ericgoubault" type="local">Éric Goubault</fr:link>
+      </fr:author>
+      <fr:author>
+        <fr:link href="/bernardohummes/" title="Bernardo Hummes Flores" uri="https://www.bernardohummes.com/bernardohummes/" display-uri="bernardohummes" type="local">Bernardo Hummes Flores</fr:link>
+      </fr:author>
+      <fr:author>
+        <fr:link href="/romankniazev/" title="Roman Kniazev" uri="https://www.bernardohummes.com/romankniazev/" display-uri="romankniazev" type="local">Roman Kniazev</fr:link>
+      </fr:author>
+      <fr:author>
+        <fr:link href="/jeremyledent/" title="Jérémy Ledent" uri="https://www.bernardohummes.com/jeremyledent/" display-uri="jeremyledent" type="local">Jérémy Ledent</fr:link>
+      </fr:author>
+      <fr:author>
+        <fr:link href="/sergiorajsbaum/" title="Sergio Rajsbaum" uri="https://www.bernardohummes.com/sergiorajsbaum/" display-uri="sergiorajsbaum" type="local">Sergio Rajsbaum</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>15</fr:day>
+    </fr:date>
+    <fr:uri>https://www.bernardohummes.com/goubault-hummmesflores-kniazev-ledent-rajsbaum-2025/</fr:uri>
+    <fr:display-uri>goubault-hummmesflores-kniazev-ledent-rajsbaum-2025</fr:display-uri>
+    <fr:route>/goubault-hummmesflores-kniazev-ledent-rajsbaum-2025/</fr:route>
+    <fr:title text="A categorical and logical framework for iterated protocols">A categorical and logical framework for iterated protocols</fr:title>
+    <fr:taxon>reference</fr:taxon>
+    <fr:meta name="bibtex"><![CDATA[@unpublished{goubault-hummesflores-kniazev-ledent-rajsbaum-2025,
+  author = {Goubault, Eric and Hummes Flores, Bernardo and Kniazev, Roman and Ledent, Jeremy and Rajsbaum, Sergio},
+  year = {2025},
+  month = may,
+  doi = {10.48550/arXiv.2505.10071},
+  eprint = {2505.10071},
+  eprintclass = {cs.LO},
+  eprinttype = {arXiv},
+  note = {Unpublished manuscript},
+  title = {A categorical and logical framework for iterated protocols},
+}]]></fr:meta>
+    <fr:meta name="doi">10.48550/arXiv.2505.10071</fr:meta>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>In this article, we show that the now classical protocol complex approach to distributed task solvability of Herlihy et al. can be understood in standard categorical terms. First, protocol complexes are functors, from chromatic (semi-) simplicial sets to chromatic simplicial sets, that naturally give rise to algebras. These algebras describe the next state operator for the corresponding distributed systems. This is constructed for semi-synchronous distributed systems with general patterns of communication for which we show that these functors are always Yoneda extensions of simpler functors, implying a number of interesting properties. Furthermore, for these protocol complex functors, we prove the existence of a free algebra on any initial chromatic simplicial complex, modeling iterated protocol complexes. Under this categorical formalization, protocol complexes are seen as transition systems, where states are structured as chromatic simplicial sets. We exploit the epistemic interpretation of chromatic simplicial sets and the underlying transition system (or algebra) structure to introduce a temporal-epistemic logic and its semantics on all free algebras on chromatic simplicial sets. We end up by giving hints on how to extend this framework to more general dynamic network graphs and state-dependent protocols, and give example in fault-tolerant distributed systems and mobile robotics. </html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>
