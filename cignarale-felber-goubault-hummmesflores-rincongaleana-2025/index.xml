@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/stephanfelber/" title="Hugo Rincon Galeana" uri="https://www.bernardohummes.com/stephanfelber/" display-uri="stephanfelber" type="local">Hugo Rincon Galeana</fr:link>
+      </fr:author>
+      <fr:author>
+        <fr:link href="/giorgiocignarale/" title="Giorgio Cignarale" uri="https://www.bernardohummes.com/giorgiocignarale/" display-uri="giorgiocignarale" type="local">Giorgio Cignarale</fr:link>
+      </fr:author>
+      <fr:author>
+        <fr:link href="/ericgoubault/" title="Éric Goubault" uri="https://www.bernardohummes.com/ericgoubault/" display-uri="ericgoubault" type="local">Éric Goubault</fr:link>
+      </fr:author>
+      <fr:author>
+        <fr:link href="/bernardohummes/" title="Bernardo Hummes Flores" uri="https://www.bernardohummes.com/bernardohummes/" display-uri="bernardohummes" type="local">Bernardo Hummes Flores</fr:link>
+      </fr:author>
+      <fr:author>
+        <fr:link href="/hugorincongaleana/" title="Hugo Rincon Galeana" uri="https://www.bernardohummes.com/hugorincongaleana/" display-uri="hugorincongaleana" type="local">Hugo Rincon Galeana</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>1</fr:month>
+      <fr:day>30</fr:day>
+    </fr:date>
+    <fr:uri>https://www.bernardohummes.com/cignarale-felber-goubault-hummmesflores-rincongaleana-2025/</fr:uri>
+    <fr:display-uri>cignarale-felber-goubault-hummmesflores-rincongaleana-2025</fr:display-uri>
+    <fr:route>/cignarale-felber-goubault-hummmesflores-rincongaleana-2025/</fr:route>
+    <fr:title text="Knowledge in multi-robot systems: an interplay of dynamics, computation and communication">Knowledge in multi-robot systems: an interplay of dynamics, computation and communication</fr:title>
+    <fr:taxon>reference</fr:taxon>
+    <fr:meta name="bibtex"><![CDATA[@unpublished{cignarale-felber-goubault-hummesflores-rincongaleana-2025,
+  author = {Cignarale, Giorgio and Felber, Stephan and Goubault, Eric and Hummes Flores, Bernardo and Rincon Galeana, Hugo},
+  year = {2025},
+  month = january,
+  doi = {10.48550/arXiv.2501.18309},
+  eprint = {2501.18309},
+  eprintclass = {cs.LO},
+  eprinttype = {arXiv},
+  note = {Unpublished manuscript},
+  title = {Knowledge in multi-robot systems: an interplay of dynamics, computation and communication},
+}]]></fr:meta>
+    <fr:meta name="doi">10.48550/arXiv.2501.18309</fr:meta>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>We show that the hybrid systems perspective of distributed multi-robot systems is compatible with logical models of knowledge already used in distributed computing, and demonstrate its usefulness by deriving sufficient epistemic conditions for exploration and gathering robot tasks to be solvable. We provide a separation of the physical and computational aspects of a robotic system, allowing us to decouple the problems related to each and directly use methods from control theory and distributed computing, fields that are traditionally distant in the literature. Finally, we demonstrate a novel approach for reasoning about the knowledge in multi-robot systems through a principled method of converting a switched hybrid dynamical system into a temporal-epistemic logic model, passing through an abstract state machine representation. This creates space for methods and results to be exchanged across the fields of control theory, distributed computing and temporal-epistemic logic, while reasoning about multi-robot systems.</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>
