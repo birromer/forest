@@ -2,16 +2,16 @@
 <!-- SPDX-License-Identifier: CC0-1.0 -->
 <xsl:stylesheet version="1.0"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-  xmlns:f="http://www.jonmsterling.com/jms-005P.xml">
+  xmlns:f="http://www.forester-notes.org">
 
-  <xsl:key name="tree-with-addr" match="/f:tree/f:mainmatter//f:tree" use="f:frontmatter/f:addr/text()" />
+  <xsl:key name="tree-with-uri" match="/f:tree/f:mainmatter//f:tree" use="f:frontmatter/f:uri/text()" />
 
   <xsl:template match="/">
-    <html>
+    <html xmlns="http://www.w3.org/1999/xhtml" data-base-url="{/f:tree/@base-url}">
       <head>
         <meta name="viewport" content="width=device-width" />
-        <link rel="stylesheet" href="style.css" />
-        <link rel="stylesheet" href="katex.min.css" />
+        <link rel="stylesheet" href="{/f:tree/@base-url}style.css" />
+        <link rel="stylesheet" href="{/f:tree/@base-url}katex.min.css" />
         <script type="text/javascript">
           <xsl:if test="/f:tree/f:frontmatter/f:source-path">
             <xsl:text>window.sourcePath = '</xsl:text>
@@ -19,9 +19,9 @@
             <xsl:text>'</xsl:text>
           </xsl:if>
         </script>
-        <script type="module" src="forester.js"></script>
+        <script type="module" src="{/f:tree/@base-url}forester.js"></script>
         <title>
-          <xsl:value-of select="/f:tree/f:frontmatter/f:title" />
+          <xsl:value-of select="/f:tree/f:frontmatter/f:title/@text" />
         </title>
       </head>
       <body>
@@ -30,7 +30,7 @@
           <header class="header">
             <nav class="nav">
               <div class="logo">
-                <a href="index.xml" title="Home">
+                <a href="{/f:tree/@base-url}index.html" title="Home">
                   <xsl:text>« Home</xsl:text>
                 </a>
               </div>
@@ -54,34 +54,117 @@
     </html>
   </xsl:template>
 
-  <xsl:template name="numbered-taxon">
-    <span class="taxon">
-      <xsl:apply-templates select="f:taxon" />
-      <xsl:if test="(not(../@numbered='false') and not(../@toc='false') and count(../../f:tree) > 1) or f:number">
-        <xsl:if test="f:taxon">
-          <xsl:text>&#160;</xsl:text>
-        </xsl:if>
+  <xsl:template match="f:tree" mode="tree-taxon-with-number">
+    <xsl:param name="suffix" select="''" />
+    <xsl:param name="taxon" select="f:frontmatter/f:taxon" />
+    <xsl:param name="number" select="f:frontmatter/f:number" />
+    <xsl:param name="fallback-number" />
+    <xsl:param name="in-backmatter" select="ancestor::f:backmatter" />
+
+    <xsl:variable name="tree-is-root" select="not(parent::*)" />
+
+    <xsl:variable name="explicitly-unnumbered" select="boolean(ancestor-or-self::f:tree[@numbered='false' or @toc='false'])" />
+    <xsl:variable name="implicitly-unnumbered" select="count(../f:tree) = 1 and not(count(f:mainmatter/f:tree) > 1)" />
+
+    <xsl:variable name="should-number" select="$number != '' or (not($in-backmatter) and not($tree-is-root) and not($explicitly-unnumbered)) and not($implicitly-unnumbered)" />
+
+    <xsl:if test="$taxon != ''">
+      <xsl:value-of select="$taxon" />
+      <xsl:if test="$should-number or $fallback-number != ''">
+        <xsl:text>&#160;</xsl:text>
+      </xsl:if>
+    </xsl:if>
+
+    <xsl:choose>
+      <xsl:when test="$should-number">
         <xsl:choose>
-          <xsl:when test="f:number">
-            <xsl:value-of select="f:number" />
+          <xsl:when test="$number != ''">
+            <xsl:value-of select="$number" />
           </xsl:when>
           <xsl:otherwise>
-            <xsl:number format="1.1" count="f:tree[ancestor::f:tree and not(@toc='false') and not(@numbered='false')]" level="multiple" />
+            <xsl:number format="1.1" count="f:tree[ancestor::f:tree and (not(@toc='false' or @numbered='false'))]" level="multiple" />
           </xsl:otherwise>
         </xsl:choose>
-      </xsl:if>
-      <xsl:if test="f:taxon or (not(../@numbered='false') and not(../@toc='false') and count(../../f:tree) > 1) or f:number">
-        <xsl:text>.&#160;</xsl:text>
-      </xsl:if>
-    </span>
+      </xsl:when>
+      <xsl:when test="$fallback-number != ''">
+        <xsl:value-of select="$fallback-number" />
+      </xsl:when>
+    </xsl:choose>
+
+    <xsl:if test="$taxon != '' or $fallback-number != '' or $should-number">
+      <xsl:value-of select="$suffix" />
+    </xsl:if>
+  </xsl:template>
+
+  <xsl:template match="f:tree" mode="contextual-number">
+    <xsl:param name="suffix" select="''" />
+    <xsl:param name="number" select="f:frontmatter/f:number" />
+    <xsl:param name="fallback-number" />
+    <xsl:param name="in-backmatter" select="ancestor::f:backmatter" />
+
+    <xsl:variable name="tree-is-root" select="not(parent::*)" />
+
+    <xsl:variable name="explicitly-unnumbered" select="boolean(ancestor-or-self::f:tree[@numbered='false' or @toc='false'])" />
+    <xsl:variable name="implicitly-unnumbered" select="count(../f:tree) = 1 and not(count(f:mainmatter/f:tree) > 1)" />
+
+    <xsl:variable name="should-number" select="$number != '' or (not($in-backmatter) and not($tree-is-root) and not($explicitly-unnumbered)) and not($implicitly-unnumbered)" />
+
+    <xsl:choose>
+      <xsl:when test="$should-number">
+        <xsl:choose>
+          <xsl:when test="$number != ''">
+            <xsl:value-of select="$number" />
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:number format="1.1" count="f:tree[ancestor::f:tree and (not(@toc='false' or @numbered='false'))]" level="multiple" />
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:when>
+      <xsl:when test="$fallback-number != ''">
+        <xsl:value-of select="$fallback-number" />
+      </xsl:when>
+    </xsl:choose>
+
+    <xsl:if test="$fallback-number != '' or $should-number">
+      <xsl:value-of select="$suffix" />
+    </xsl:if>
   </xsl:template>
 
   <xsl:template match="f:tree" mode="toc">
     <li>
       <xsl:for-each select="f:frontmatter">
-        <a href="{f:route}" class="bullet" title="{f:title} [{f:addr}]">■</a>
-        <span class="link local" data-target="#tree-{f:anchor}">
-          <xsl:call-template name="numbered-taxon" />
+        <a class="bullet">
+          <xsl:choose>
+            <xsl:when test="f:display-uri and f:route">
+              <xsl:attribute name="href">
+                <xsl:value-of select="f:route" />
+              </xsl:attribute>
+              <xsl:attribute name="title">
+                <xsl:value-of select="f:title/@text" />
+                <xsl:text>&#160;[</xsl:text>
+                <xsl:value-of select="f:display-uri" />
+                <xsl:text>]</xsl:text>
+              </xsl:attribute>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:attribute name="href">
+                <xsl:text>#</xsl:text>
+                <xsl:value-of select="generate-id(..)" />
+              </xsl:attribute>
+              <xsl:attribute name="title">
+                <xsl:value-of select="f:title" />
+              </xsl:attribute>
+            </xsl:otherwise>
+          </xsl:choose>
+          <xsl:text>■</xsl:text>
+        </a>
+        <span class="link local" data-target="#{generate-id(..)}">
+          <span class="taxon">
+            <xsl:apply-templates select=".." mode="tree-taxon-with-number">
+              <xsl:with-param name="suffix">.&#160;</xsl:with-param>
+            </xsl:apply-templates>
+          </span>
+
           <xsl:apply-templates select="f:title" />
         </span>
       </xsl:for-each>
@@ -100,17 +183,26 @@
   </xsl:template>
 
   <xsl:template match="f:mainmatter">
-    <div class="tree-content">
-      <xsl:apply-templates />
-    </div>
+     <xsl:apply-templates />
   </xsl:template>
 
-  <xsl:template match="f:addr">
+  <xsl:template match="f:display-uri[../f:route]">
     <a class="slug" href="{../f:route}">
       <xsl:text>[</xsl:text>
       <xsl:value-of select="." />
       <xsl:text>]</xsl:text>
     </a>
+  </xsl:template>
+
+  <xsl:template match="f:display-uri[not(../f:route)]">
+  </xsl:template>
+
+  <xsl:template match="f:resource">
+    <xsl:apply-templates select="f:resource-content" />
+  </xsl:template>
+
+  <xsl:template match="f:resource-content">
+    <xsl:apply-templates />
   </xsl:template>
 
   <xsl:template match="f:source-path">
@@ -126,10 +218,15 @@
   <xsl:template match="f:frontmatter">
     <header>
       <h1>
-        <xsl:call-template name="numbered-taxon" />
+        <span class="taxon">
+          <xsl:apply-templates select=".." mode="tree-taxon-with-number">
+            <xsl:with-param name="suffix">.&#160;</xsl:with-param>
+          </xsl:apply-templates>
+        </span>
+
         <xsl:apply-templates select="f:title" />
         <xsl:text>&#032;</xsl:text>
-        <xsl:apply-templates select="f:addr" />
+        <xsl:apply-templates select="f:display-uri" />
         <xsl:text>&#032;</xsl:text>
         <xsl:apply-templates select="f:source-path" />
       </h1>
@@ -153,24 +250,30 @@
     </header>
   </xsl:template>
 
-  <xsl:template match="f:tree" mode="tree-number">
-    <xsl:choose>
-      <xsl:when test="f:frontmatter/f:number">
-        <xsl:value-of select="f:frontmatter/f:number" />
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:number format="1.1" count="f:tree[ancestor::f:tree and not(@toc='false') and not(@numbered='false')]" level="multiple" />
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:template>
-
   <xsl:template match="f:ref">
+    <xsl:variable name="fallback-number">
+      <xsl:text>[</xsl:text>
+      <xsl:value-of select="@uri" />
+      <xsl:text>]</xsl:text>
+    </xsl:variable>
+
+    <xsl:variable name="taxon">
+      <xsl:choose>
+        <xsl:when test="@taxon">
+          <xsl:value-of select="@taxon" />
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:text>§</xsl:text>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+
     <a class="link local">
       <xsl:attribute name="href">
         <xsl:choose>
-          <xsl:when test="key('tree-with-addr',current()/@addr)">
-            <xsl:text>#tree-</xsl:text>
-            <xsl:value-of select="key('tree-with-addr',current()/@addr)/f:frontmatter/f:anchor" />
+          <xsl:when test="key('tree-with-uri',current()/@uri)">
+            <xsl:text>#</xsl:text>
+            <xsl:value-of select="generate-id(key('tree-with-uri',current()/@uri))" />
           </xsl:when>
           <xsl:otherwise>
             <xsl:value-of select="@href" />
@@ -179,73 +282,66 @@
       </xsl:attribute>
 
       <xsl:choose>
-        <xsl:when test="@taxon">
-          <xsl:value-of select="@taxon" />
-        </xsl:when>
-        <xsl:otherwise>§</xsl:otherwise>
-      </xsl:choose>
-      <xsl:text>&#160;</xsl:text>
-      <xsl:choose>
-        <xsl:when test="@number">
-          <xsl:value-of select="@number" />
-        </xsl:when>
-        <xsl:when test="key('tree-with-addr',current()/@addr)[not(@numbered='false') and not(@toc='false')]">
-          <xsl:apply-templates select="key('tree-with-addr',current()/@addr)[1]" mode="tree-number" />
+        <xsl:when test="key('tree-with-uri', current()/@uri)">
+          <xsl:apply-templates select="key('tree-with-uri', current()/@uri)" mode="tree-taxon-with-number">
+            <xsl:with-param name="in-backmatter" select="boolean(ancestor::f:backmatter)" />
+            <xsl:with-param name="number" select="@number" />
+            <xsl:with-param name="fallback-number" select="$fallback-number" />
+            <xsl:with-param name="taxon" select="$taxon" />
+          </xsl:apply-templates>
         </xsl:when>
         <xsl:otherwise>
-          <xsl:text>[</xsl:text>
-          <xsl:value-of select="@addr" />
-          <xsl:text>]</xsl:text>
+          <xsl:value-of select="$taxon" />
+          <xsl:text>&#160;</xsl:text>
+          <xsl:choose>
+            <xsl:when test="@number">
+              <xsl:value-of select="@number" />
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:value-of select="$fallback-number" />
+            </xsl:otherwise>
+          </xsl:choose>
         </xsl:otherwise>
       </xsl:choose>
     </a>
   </xsl:template>
 
-  <xsl:template match="f:backmatter/f:references" mode="title">
-    <xsl:text>References</xsl:text>
-  </xsl:template>
+  <xsl:template match="f:contextual-number[@uri]">
+    <xsl:variable name="fallback-number">
+      <xsl:text>[</xsl:text>
+      <xsl:value-of select="@display-uri" />
+      <xsl:text>]</xsl:text>
+    </xsl:variable>
 
-  <xsl:template match="f:backmatter/f:context" mode="title">
-    <xsl:text>Context</xsl:text>
-  </xsl:template>
-
-  <xsl:template match="f:backmatter/f:contributions" mode="title">
-    <xsl:text>Contributions</xsl:text>
-  </xsl:template>
-
-  <xsl:template match="f:backmatter/f:related" mode="title">
-    <xsl:text>Related</xsl:text>
-  </xsl:template>
-
-  <xsl:template match="f:backmatter/f:backlinks" mode="title">
-    <xsl:text>Backlinks</xsl:text>
-  </xsl:template>
-
-  <xsl:template match="f:backmatter/f:references|f:backmatter/f:context|f:backmatter/f:contributions|f:backmatter/f:related|f:backmatter/f:backlinks">
-    <xsl:if test="f:tree">
-      <section class="block link-list">
-        <h2>
-          <xsl:apply-templates select="." mode="title" />
-        </h2>
-        <xsl:apply-templates select="f:tree" />
-      </section>
-    </xsl:if>
-  </xsl:template>
-
-  <xsl:template match="/f:tree[not(@root='true')]/f:backmatter">
-    <footer>
-      <xsl:apply-templates select="f:references" />
-      <xsl:apply-templates select="f:context" />
-      <xsl:apply-templates select="f:backlinks" />
-      <xsl:apply-templates select="f:related" />
-      <xsl:apply-templates select="f:contributions" />
-    </footer>
+    <xsl:choose>
+      <xsl:when test="key('tree-with-uri', current()/@uri)">
+        <xsl:apply-templates select="key('tree-with-uri', current()/@uri)" mode="contextual-number">
+          <xsl:with-param name="in-backmatter" select="boolean(ancestor::f:backmatter)" />
+          <xsl:with-param name="fallback-number" select="$fallback-number" />
+        </xsl:apply-templates>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="$fallback-number" />
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 
   <xsl:template match="/f:tree[@root='true']/f:backmatter">
   </xsl:template>
 
-  <xsl:template match="f:tree">
+  <xsl:template match="/f:tree[not(@root='true')]/f:backmatter">
+    <footer>
+      <xsl:apply-templates />
+    </footer>
+  </xsl:template>
+
+  <xsl:template match="f:mainmatter//f:backmatter">
+  </xsl:template>
+
+  <xsl:template match="f:backmatter//f:backmatter">
+  </xsl:template>
+
+  <xsl:template match="f:tree[f:mainmatter[*] or not(@hidden-when-empty = 'true')]">
     <section>
       <xsl:attribute name="lang">
         <xsl:choose>
@@ -264,15 +360,15 @@
           <xsl:attribute name="class">block</xsl:attribute>
         </xsl:otherwise>
       </xsl:choose>
-      <xsl:if test="f:frontmatter/taxon">
+      <xsl:if test="f:frontmatter/f:taxon">
         <xsl:attribute name="data-taxon">
-          <xsl:value-of select="f:frontmatter/taxon" />
+          <xsl:value-of select="f:frontmatter/f:taxon" />
         </xsl:attribute>
       </xsl:if>
 
       <xsl:choose>
         <xsl:when test="not(@show-heading='false')">
-          <details id="{concat('tree-',f:frontmatter/f:anchor)}">
+          <details id="{generate-id(.)}">
             <xsl:if test="not(@expanded = 'false')">
               <xsl:attribute name="open">open</xsl:attribute>
             </xsl:if>
@@ -292,20 +388,6 @@
     <xsl:apply-templates select="f:backmatter" />
   </xsl:template>
 
-  <xsl:template match="f:backmatter/*/f:tree">
-    <section class="block">
-      <xsl:if test="f:frontmatter/f:taxon">
-        <xsl:attribute name="data-taxon">
-          <xsl:value-of select="f:frontmatter/f:taxon" />
-        </xsl:attribute>
-      </xsl:if>
-      <details>
-        <summary>
-          <xsl:apply-templates select="f:frontmatter" />
-        </summary>
-        <xsl:apply-templates select="f:mainmatter" />
-      </details>
-    </section>
-  </xsl:template>
+  <xsl:template match="f:tree"></xsl:template>
 
 </xsl:stylesheet>
