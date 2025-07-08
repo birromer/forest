@@ -1,6 +1,9 @@
 \title{Hi.}
 \author{bernardohummes}
 
+\<html:img>[src]{\route-asset{assets/profile.jpg}}[style]{float: right; width: 120px; margin-left: 20px; margin-bottom: 10px; border: 1px solid #ddd; border-radius: 4px}{}
+
+
 \p{
   I'm a PhD student at [LIX](https://www.lix.polytechnique.fr/) working on formal methods for mobile robotics with [Eric Goubault](ericgoubault), [Sylvie Putot](sylvieputot) and [Luc Jaulin](lucjaulin).
   I study the characterization of tasks in swarm robotics, linking with methods in distributed computing and the underlying structures in modal logics and topology.}

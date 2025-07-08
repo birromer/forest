@@ -52,6 +52,7 @@
             <fr:title text="Hi.">Hi.</fr:title>
           </fr:frontmatter>
           <fr:mainmatter>
+            <html:img src="/bafkrmiai523hpfba3kfdgvrwget2cwpis6alvg4jawhnxalcaygss3lkve.jpg" style="float: right; width: 120px; margin-left: 20px; margin-bottom: 10px; border: 1px solid ddd; border-radius: 4px" />
             <html:p>
   I'm a PhD student at <fr:link href="https://www.lix.polytechnique.fr/" type="external">LIX</fr:link> working on formal methods for mobile robotics with <fr:link href="/ericgoubault/" title="Éric Goubault" uri="https://www.bernardohummes.com/ericgoubault/" display-uri="ericgoubault" type="local">Eric Goubault</fr:link>, <fr:link href="/sylvieputot/" title="Sylvie Putot" uri="https://www.bernardohummes.com/sylvieputot/" display-uri="sylvieputot" type="local">Sylvie Putot</fr:link> and <fr:link href="/lucjaulin/" title="Luc Jaulin" uri="https://www.bernardohummes.com/lucjaulin/" display-uri="lucjaulin" type="local">Luc Jaulin</fr:link>.
   I study the characterization of tasks in swarm robotics, linking with methods in distributed computing and the underlying structures in modal logics and topology.</html:p>
