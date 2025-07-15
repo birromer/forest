@@ -3,14 +3,16 @@
 
 \<html:img>[src]{\route-asset{assets/profile.jpg}}[style]{float: right; width: 120px; margin-left: 20px; margin-bottom: 10px; border: 1px solid #ddd; border-radius: 4px}{}
 
-
 \p{
-  I'm a PhD student at [LIX](https://www.lix.polytechnique.fr/) working on formal methods for mobile robotics with [Eric Goubault](ericgoubault), [Sylvie Putot](sylvieputot) and [Luc Jaulin](lucjaulin).
-  I study the characterization of tasks in swarm robotics, linking with methods in distributed computing and the underlying structures in modal logics and topology.}
-
-\p{You can see my works in [dblp](https://dblp.org/pid/294/4541.html) and my CV \<html:a>[href]{\route-asset{assets/cv.pdf}}[style]{text-decoration: underline}{here}.}
+  I'm a PhD student at [LIX](https://www.lix.polytechnique.fr/) working on formal methods for mobile robotics with [Eric Goubault](ericgoubault), [Sylvie Putot](sylvieputot) and [Luc Jaulin](lucjaulin). I work on characterizing the solvability of tasks performed by swarms of robots, connecting distributed computing and mobile robotics with the underlying structures in modal logics and topology.
+}
 
 \p{
   Previously, I completed my masters/engineering degree in autonomous robotics in [ENSTA Bretagne](https://www.ensta-bretagne.fr/sperob), where I worked with [Luc Jaulin](lucjaulin) on interval methods for robot localization.
   Before that, I did a bachelors in computer science in [UFRGS](https://www.inf.ufrgs.br/site/en), where I worked in its [robotics lab](https://www.inf.ufrgs.br/phi-group/site/) on hybrid methods for robot localization and monocular vision in loop closure.
 }
+
+\p{
+  You can see my works in [dblp](https://dblp.org/pid/294/4541.html) and my CV \<html:a>[href]{\route-asset{assets/cv.pdf}}[style]{text-decoration: underline}{here}. You can reach me at #{\; \mathtt{hi} \; \mathtt{[at]} \; \mathtt{bernardohummes} \; \mathtt{[dot]} \; \mathtt{com}}.
+  }
+
