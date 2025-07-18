@@ -5,6 +5,6 @@ deployment:
     - /bin/mkdir -p $DEPLOYPATH
     - /bin/cp -R output/* $DEPLOYPATH
     - /bin/cp -R assets/* $DEPLOYPATH/
-    - /bin/cp -R assets/.* $DEPLOYPATH/
+    - /bin/cp -R assets/.htaccess $DEPLOYPATH/
     - /bin/find $DEPLOYPATH -name ".git*" -exec rm -rf {} + 2>/dev/null || true
     - /bin/rm -f $DEPLOYPATH/.cpanel.yml
