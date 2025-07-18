@@ -7,3 +7,7 @@ DirectoryIndex index.xml index.html index.htm
 <Files "index.xml">
     Header set Content-Type "text/html; charset=utf-8"
 </Files>
+
+<Files ~ "thesis.pdf">
+  Header set X-Robots-Tag "noindex, nofollow"
+</Files>
