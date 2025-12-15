@@ -14,5 +14,6 @@
 
 \p{
   You can see my works in [dblp](https://dblp.org/pid/294/4541.html) and my CV \<html:a>[href]{\route-asset{assets/cv.pdf}}[style]{text-decoration: underline}{here}. You can reach me at #{\; \mathtt{hi} \; \mathtt{[at]} \; \mathtt{bernardohummes} \; \mathtt{[dot]} \; \mathtt{com}}.
-  }
+}
+
 

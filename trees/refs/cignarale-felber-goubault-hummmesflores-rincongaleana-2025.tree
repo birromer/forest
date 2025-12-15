@@ -1,7 +1,7 @@
 \title{Knowledge in multi-robot systems: an interplay of dynamics, computation and communication}
-\date{2025-01-30}
 \taxon{reference}
 
+\date{2025-01-30}
 \author{stephanfelber}
 \author{giorgiocignarale}
 \author{ericgoubault}
@@ -12,6 +12,8 @@
 \tag{epistemic-logic}
 \tag{switched-system}
 \tag{distributed-computing}
+
+\meta{doi}{10.48550/arXiv.2501.18309}
 
 \meta{bibtex}\verb<<<|
 @unpublished{cignarale-felber-goubault-hummesflores-rincongaleana-2025,
@@ -25,7 +27,5 @@
   note = {Unpublished manuscript},
   title = {Knowledge in multi-robot systems: an interplay of dynamics, computation and communication},
 }<<<
-
-\meta{doi}{10.48550/arXiv.2501.18309}
 
 \p{We show that the hybrid systems perspective of distributed multi-robot systems is compatible with logical models of knowledge already used in distributed computing, and demonstrate its usefulness by deriving sufficient epistemic conditions for exploration and gathering robot tasks to be solvable. We provide a separation of the physical and computational aspects of a robotic system, allowing us to decouple the problems related to each and directly use methods from control theory and distributed computing, fields that are traditionally distant in the literature. Finally, we demonstrate a novel approach for reasoning about the knowledge in multi-robot systems through a principled method of converting a switched hybrid dynamical system into a temporal-epistemic logic model, passing through an abstract state machine representation. This creates space for methods and results to be exchanged across the fields of control theory, distributed computing and temporal-epistemic logic, while reasoning about multi-robot systems.}

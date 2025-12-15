@@ -46,9 +46,9 @@
                 <fr:link href="/bernardohummes/" title="Bernardo Hummes Flores" uri="https://www.bernardohummes.com/bernardohummes/" display-uri="bernardohummes" type="local">Bernardo Hummes Flores</fr:link>
               </fr:author>
             </fr:authors>
-            <fr:uri>https://www.bernardohummes.com/bhf-0001/</fr:uri>
-            <fr:display-uri>bhf-0001</fr:display-uri>
-            <fr:route>/bhf-0001/</fr:route>
+            <fr:uri>https://www.bernardohummes.com/0001/</fr:uri>
+            <fr:display-uri>0001</fr:display-uri>
+            <fr:route>/0001/</fr:route>
             <fr:title text="Hi.">Hi.</fr:title>
           </fr:frontmatter>
           <fr:mainmatter>
@@ -62,7 +62,7 @@
 </html:p>
             <html:p>
   You can see my works in <fr:link href="https://dblp.org/pid/294/4541.html" type="external">dblp</fr:link> and my CV <html:a href="/bafkrmidxy5ws5ulw7oqdywvj6xpnzvoa24g6uddpitu4qxr7rjk55aisz4.pdf" style="text-decoration: underline">here</html:a>. You can reach me at <fr:tex display="inline"><![CDATA[\; \mathtt {hi} \; \mathtt {[at]} \; \mathtt {bernardohummes} \; \mathtt {[dot]} \; \mathtt {com}]]></fr:tex>.
-  </html:p>
+</html:p>
           </fr:mainmatter>
         </fr:tree>
       </fr:mainmatter>

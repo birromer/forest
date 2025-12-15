@@ -34,7 +34,68 @@
         <fr:authors />
         <fr:title text="Backlinks">Backlinks</fr:title>
       </fr:frontmatter>
-      <fr:mainmatter />
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/bernardohummes/" title="Bernardo Hummes Flores" uri="https://www.bernardohummes.com/bernardohummes/" display-uri="bernardohummes" type="local">Bernardo Hummes Flores</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:uri>https://www.bernardohummes.com/0002/</fr:uri>
+            <fr:display-uri>0002</fr:display-uri>
+            <fr:route>/0002/</fr:route>
+            <fr:title text="Works of Bernardo Hummes Flores">Works of <fr:link href="/bernardohummes/" title="Bernardo Hummes Flores" uri="https://www.bernardohummes.com/bernardohummes/" display-uri="bernardohummes" type="local">Bernardo Hummes Flores</fr:link></fr:title>
+            <fr:taxon>Bibliography</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/bernardohummes/" title="Bernardo Hummes Flores" uri="https://www.bernardohummes.com/bernardohummes/" display-uri="bernardohummes" type="local">Bernardo Hummes Flores</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:title text="Published papers">Published papers</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter />
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/bernardohummes/" title="Bernardo Hummes Flores" uri="https://www.bernardohummes.com/bernardohummes/" display-uri="bernardohummes" type="local">Bernardo Hummes Flores</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:title text="Manuscripts">Manuscripts</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter />
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/bernardohummes/" title="Bernardo Hummes Flores" uri="https://www.bernardohummes.com/bernardohummes/" display-uri="bernardohummes" type="local">Bernardo Hummes Flores</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:title text="Dissertation">Dissertation</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter />
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/bernardohummes/" title="Bernardo Hummes Flores" uri="https://www.bernardohummes.com/bernardohummes/" display-uri="bernardohummes" type="local">Bernardo Hummes Flores</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:title text="Seminar talks">Seminar talks</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter />
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
     </fr:tree>
     <fr:tree show-metadata="false" hidden-when-empty="true">
       <fr:frontmatter>
