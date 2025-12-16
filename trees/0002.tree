@@ -8,24 +8,21 @@
 
 \def\rel/my-references{bernardohummes.query.my-references}
 \execute\datalog{
- \rel/my-references ?X -: {\rel/has-author ?X @{bernardohummes}} {\rel/is-reference ?X}
+  \rel/my-references ?X -: {\rel/has-author ?X @{bernardohummes}} {\rel/has-taxon ?X '{reference}}
+}
+\subtree{
+  \title{Published articles}
+  \query\datalog{
+    ?X -: {\rel/my-references ?X} {\rel/has-tag ?X '{accepted}}
+  }
 }
 
 \subtree{
- \title{Published articles}
- \query\datalog{
-  ?X -: {\rel/my-references ?X} {\rel/has-tag ?X '{refereed}}
-     # {\rel/has-tag ?X '{accepted}}
- }
-}
-
-\subtree{
- \title{Manuscripts}
- \query\datalog{
-  ?X -: {\rel/my-references ?X} {\rel/has-tag ?X '{preprint}}
+  \title{Manuscripts}
+  \query\datalog{
+    ?X -: {\rel/my-references ?X} {\rel/has-tag ?X '{preprint}}
       # {\rel/has-tag ?X '{accepted}}
-        {\rel/has-tag ?X '{refereed}}
- }
+  }
 }
 
 % \subtree{

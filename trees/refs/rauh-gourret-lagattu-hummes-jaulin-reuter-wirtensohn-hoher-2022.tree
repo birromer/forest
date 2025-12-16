@@ -17,7 +17,7 @@
 \meta{doi}{10.3390/a15050162}
 
 \meta{bibtex}\verb<<<|
-@unpublished{rauh-gourret-lagattu-hummes-jaulin-reuter-wirtensohn-hoher-2022.,
+@article{rauh-gourret-lagattu-hummes-jaulin-reuter-wirtensohn-hoher-2022.,
   title = {Experimental Validation of Ellipsoidal Techniques for State Estimation in Marine Applications},
   author = {Rauh, Andreas and Gourret, Yohann and Lagattu, Katell and Hummes, Bernardo and Jaulin, Luc and Reuter, Johannes and Wirtensohn, Stefan and Hoher, Patrick}},
   year = {2022},

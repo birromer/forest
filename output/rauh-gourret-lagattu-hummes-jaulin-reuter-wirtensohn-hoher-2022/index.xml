@@ -39,7 +39,7 @@
     <fr:title text="Experimental validation of ellipsoidal techniques for state estimation in marine applications">Experimental validation of ellipsoidal techniques for state estimation in marine applications</fr:title>
     <fr:taxon>reference</fr:taxon>
     <fr:meta name="doi">10.3390/a15050162</fr:meta>
-    <fr:meta name="bibtex"><![CDATA[@unpublished{neuland-mantelli-hummes-jaulin-maffei-prestes-kolberg-2021,
+    <fr:meta name="bibtex"><![CDATA[@article{rauh-gourret-lagattu-hummes-jaulin-reuter-wirtensohn-hoher-2022.,
   title = {Experimental Validation of Ellipsoidal Techniques for State Estimation in Marine Applications},
   author = {Rauh, Andreas and Gourret, Yohann and Lagattu, Katell and Hummes, Bernardo and Jaulin, Luc and Reuter, Johannes and Wirtensohn, Stefan and Hoher, Patrick}},
   year = {2022},

@@ -1,0 +1,37 @@
+\title{Brief Announcement: A Sheaf-Theoretic Characterization of Tasks in Distributed Systems}
+\taxon{reference}
+
+\date{2025-06-02}
+\author{stephanfelber}
+\author{bernardohummes}
+\author{hugorincongaleana}
+
+\tag{accepted}
+
+\tag{task-solvability}
+\tag{locality}
+\tag{distributed-computing}
+\tag{sheaf-theory}
+\tag{kripke-frame}
+\tag{applied-category-theory}
+\tag{cohomology-theory}
+
+\meta{doi}{10.1007/978-3-031-91736-3_2}
+
+\meta{bibtex}\verb<<<|
+@inproceedings{cignarale-felber-goubault-hummesflores-rincongaleana-2025,
+  author = {Felber, Stephan and Hummes Flores, Bernardo and Rincon Galeana, Hugo},
+  title = {Brief Announcement: A Sheaf-Theoretic Characterization of Tasks in Distributed Systems},
+  isbn = {978-3-031-91735-6},
+  publisher = {Springer-Verlag},
+  address = {Berlin, Heidelberg},
+  url = {https://doi.org/10.1007/978-3-031-91736-3_26},
+  doi = {10.1007/978-3-031-91736-3_26},
+  booktitle = {Structural Information and Communication Complexity: 32nd International Colloquium, SIROCCO 2025, Delphi, Greece, June 2–4, 2025, Proceedings},
+  year = {2025},
+  pages = {425–430},
+  numpages = {6},
+  location = {Delphi, Greece}
+}<<<
+
+\p{Task solvability lies at the heart of distributed computing, with direct implications for both theoretical understanding and practical system design. A fundamental challenge in distributed computing is constructing global solutions from local computations and information. Sheaf theory addresses this challenge by providing a mathematical framework for assessing globally consistent properties from locally defined data. In this paper, we introduce a sheaf-theoretic characterization of task solvability by defining the novel construction of a task sheaf, whose sections correspond to valid solutions of a task. Furthermore, we show that the cohomology of a task sheaf may be used to compute solving protocols, thus establishing a connection between distributed computing and sheaf theory for both protocol design and impossibility analysis.}

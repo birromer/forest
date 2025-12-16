@@ -36,7 +36,7 @@
     <fr:title text="Robust hybrid interval-probabilistic approach for the kidnapped robot problem">Robust hybrid interval-probabilistic approach for the kidnapped robot problem</fr:title>
     <fr:taxon>reference</fr:taxon>
     <fr:meta name="doi">10.1142/S0218488521500141</fr:meta>
-    <fr:meta name="bibtex"><![CDATA[@unpublished{neuland-mantelli-hummes-jaulin-maffei-prestes-kolberg-2021,
+    <fr:meta name="bibtex"><![CDATA[@article{neuland-mantelli-hummes-jaulin-maffei-prestes-kolberg-2021,
   title = {Robust Hybrid Interval-Probabilistic Approach for the Kidnapped Robot Problem},
   author = {Neuland, Renata and Mantelli, Mathias and Hummes, Bernardo and Jaulin, Luc and Maffei, Renan and Prestes, Edson and Kolberg, Mariana},
   year = {2021},

@@ -11,11 +11,12 @@
 \author{marianakolberg}
 
 \tag{refereed}
+\tag{accepted}
 
 \meta{doi}{10.1142/S0218488521500141}
 
 \meta{bibtex}\verb<<<|
-@unpublished{neuland-mantelli-hummes-jaulin-maffei-prestes-kolberg-2021,
+@article{neuland-mantelli-hummes-jaulin-maffei-prestes-kolberg-2021,
   title = {Robust Hybrid Interval-Probabilistic Approach for the Kidnapped Robot Problem},
   author = {Neuland, Renata and Mantelli, Mathias and Hummes, Bernardo and Jaulin, Luc and Maffei, Renan and Prestes, Edson and Kolberg, Mariana},
   year = {2021},
