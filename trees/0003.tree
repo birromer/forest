@@ -1,0 +1,16 @@
+\title{List of talks}
+\author{bernardohummes}
+%\taxon{Bibliography}
+
+\tag{top}
+
+\def\rel/my-references{bernardohummes.query.my-references}
+\execute\datalog{
+ \rel/my-references ?X -: {\rel/has-author ?X @{bernardohummes}} {\rel/is-reference ?X}
+}
+\subtree{
+ \title{Talks}
+ \query\datalog{
+  ?X -: {\rel/my-references ?X} {\rel/has-tag ?X '{seminar}}
+ }
+}

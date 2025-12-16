@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/andreasrauh/" title="Andreas Rauh" uri="https://www.bernardohummes.com/andreasrauh/" display-uri="andreasrauh" type="local">Andreas Rauh</fr:link>
+      </fr:author>
+      <fr:author>
+        <fr:link href="/yohanngourret/" title="Yohann Gourret" uri="https://www.bernardohummes.com/yohanngourret/" display-uri="yohanngourret" type="local">Yohann Gourret</fr:link>
+      </fr:author>
+      <fr:author>
+        <fr:link href="/katelllagattu/" title="Katell Lagattu" uri="https://www.bernardohummes.com/katelllagattu/" display-uri="katelllagattu" type="local">Katell Lagattu</fr:link>
+      </fr:author>
+      <fr:author>
+        <fr:link href="/bernardohummes/" title="Bernardo Hummes Flores" uri="https://www.bernardohummes.com/bernardohummes/" display-uri="bernardohummes" type="local">Bernardo Hummes Flores</fr:link>
+      </fr:author>
+      <fr:author>
+        <fr:link href="/lucjaulin/" title="Luc Jaulin" uri="https://www.bernardohummes.com/lucjaulin/" display-uri="lucjaulin" type="local">Luc Jaulin</fr:link>
+      </fr:author>
+      <fr:author>
+        <fr:link href="/johannesreuter/" title="Johannes Reuter" uri="https://www.bernardohummes.com/johannesreuter/" display-uri="johannesreuter" type="local">Johannes Reuter</fr:link>
+      </fr:author>
+      <fr:author>
+        <fr:link href="/stefanwirtensohn/" title="Stefan Wirtensohn" uri="https://www.bernardohummes.com/stefanwirtensohn/" display-uri="stefanwirtensohn" type="local">Stefan Wirtensohn</fr:link>
+      </fr:author>
+      <fr:author>
+        <fr:link href="/patrickhoher/" title="Johannes Reuter" uri="https://www.bernardohummes.com/patrickhoher/" display-uri="patrickhoher" type="local">Johannes Reuter</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>11</fr:day>
+    </fr:date>
+    <fr:uri>https://www.bernardohummes.com/rauh-gourret-lagattu-hummes-jaulin-reuter-wirtensohn-hoher-2022/</fr:uri>
+    <fr:display-uri>rauh-gourret-lagattu-hummes-jaulin-reuter-wirtensohn-hoher-2022</fr:display-uri>
+    <fr:route>/rauh-gourret-lagattu-hummes-jaulin-reuter-wirtensohn-hoher-2022/</fr:route>
+    <fr:title text="Experimental validation of ellipsoidal techniques for state estimation in marine applications">Experimental validation of ellipsoidal techniques for state estimation in marine applications</fr:title>
+    <fr:taxon>reference</fr:taxon>
+    <fr:meta name="doi">10.3390/a15050162</fr:meta>
+    <fr:meta name="bibtex"><![CDATA[@unpublished{neuland-mantelli-hummes-jaulin-maffei-prestes-kolberg-2021,
+  title = {Experimental Validation of Ellipsoidal Techniques for State Estimation in Marine Applications},
+  author = {Rauh, Andreas and Gourret, Yohann and Lagattu, Katell and Hummes, Bernardo and Jaulin, Luc and Reuter, Johannes and Wirtensohn, Stefan and Hoher, Patrick}},
+  year = {2022},
+  journal = {Algorithms},
+  volume = {15},
+  number = {5},
+  article-number = {162},
+}]]></fr:meta>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>A reliable quantification of the worst-case influence of model uncertainty and external disturbances is crucial for the localization of vessels in marine applications. This is especially true if uncertain GPS-based position measurements are used to update predicted vessel locations that are obtained from the evaluation of a ship’s state equation. To reflect real-life working conditions, these state equations need to account for uncertainty in the system model, such as imperfect actuation and external disturbances due to effects such as wind and currents. As an application scenario, the GPS-based localization of autonomous DDboat robots is considered in this paper. Using experimental data, the efficiency of an ellipsoidal approach, which exploits a bounded-error representation of disturbances and uncertainties, is demonstrated.</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

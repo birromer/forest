@@ -9,7 +9,7 @@
     <fr:title text="Hugo Rincon Galeana">Hugo Rincon Galeana</fr:title>
     <fr:taxon>person</fr:taxon>
     <fr:meta name="institution">TU Berlin</fr:meta>
-    <fr:meta name="position">PhD student</fr:meta>
+    <fr:meta name="position">Ph.D. student</fr:meta>
     <fr:meta name="orcid">0000-0002-8152-1275</fr:meta>
   </fr:frontmatter>
   <fr:mainmatter />

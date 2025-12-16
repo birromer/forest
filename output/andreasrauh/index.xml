@@ -3,17 +3,20 @@
 <fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
   <fr:frontmatter>
     <fr:authors />
-    <fr:uri>https://www.bernardohummes.com/bernardohummes/</fr:uri>
-    <fr:display-uri>bernardohummes</fr:display-uri>
-    <fr:route>/bernardohummes/</fr:route>
-    <fr:title text="Bernardo Hummes Flores">Bernardo Hummes Flores</fr:title>
+    <fr:uri>https://www.bernardohummes.com/andreasrauh/</fr:uri>
+    <fr:display-uri>andreasrauh</fr:display-uri>
+    <fr:route>/andreasrauh/</fr:route>
+    <fr:title text="Andreas Rauh">Andreas Rauh</fr:title>
     <fr:taxon>person</fr:taxon>
-    <fr:meta name="external">https://www.bernardohummes.com/</fr:meta>
-    <fr:meta name="institution">École Polytechnique</fr:meta>
-    <fr:meta name="orcid">0000-0003-2325-1497</fr:meta>
-    <fr:meta name="position">Ph.D. student</fr:meta>
+    <fr:meta name="external">https://www.interval-methods.de/</fr:meta>
+    <fr:meta name="institution">Carl von Ossietzky Universität Oldenburg</fr:meta>
+    <fr:meta name="position">Professor</fr:meta>
   </fr:frontmatter>
-  <fr:mainmatter />
+  <fr:mainmatter>
+    <html:p>
+  Professor with the Department of Computing Science of Carl von Ossietzky Universität Oldenburg, head of the group Distributed Control of Interconnected Systems.
+</html:p>
+  </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
       <fr:frontmatter>

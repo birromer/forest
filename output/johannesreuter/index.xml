@@ -3,15 +3,14 @@
 <fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
   <fr:frontmatter>
     <fr:authors />
-    <fr:uri>https://www.bernardohummes.com/bernardohummes/</fr:uri>
-    <fr:display-uri>bernardohummes</fr:display-uri>
-    <fr:route>/bernardohummes/</fr:route>
-    <fr:title text="Bernardo Hummes Flores">Bernardo Hummes Flores</fr:title>
+    <fr:uri>https://www.bernardohummes.com/johannesreuter/</fr:uri>
+    <fr:display-uri>johannesreuter</fr:display-uri>
+    <fr:route>/johannesreuter/</fr:route>
+    <fr:title text="Johannes Reuter">Johannes Reuter</fr:title>
     <fr:taxon>person</fr:taxon>
-    <fr:meta name="external">https://www.bernardohummes.com/</fr:meta>
-    <fr:meta name="institution">École Polytechnique</fr:meta>
-    <fr:meta name="orcid">0000-0003-2325-1497</fr:meta>
-    <fr:meta name="position">Ph.D. student</fr:meta>
+    <fr:meta name="external">https://www.htwg-konstanz.de/jreuter</fr:meta>
+    <fr:meta name="institution">Konstanz University of Applied Sciences</fr:meta>
+    <fr:meta name="position">Professor</fr:meta>
   </fr:frontmatter>
   <fr:mainmatter />
   <fr:backmatter>

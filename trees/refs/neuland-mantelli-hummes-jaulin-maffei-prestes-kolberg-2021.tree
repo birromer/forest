@@ -1,0 +1,29 @@
+\title{Robust hybrid interval-probabilistic approach for the kidnapped robot problem}
+\taxon{reference}
+
+\date{2025-02-01}
+\author{renataneuland}
+\author{mathiasmantelli}
+\author{bernardohummes}
+\author{lucjaulin}
+\author{renanmaffei}
+\author{edsonprestes}
+\author{marianakolberg}
+
+\tag{refereed}
+
+\meta{doi}{10.1142/S0218488521500141}
+
+\meta{bibtex}\verb<<<|
+@unpublished{neuland-mantelli-hummes-jaulin-maffei-prestes-kolberg-2021,
+  title = {Robust Hybrid Interval-Probabilistic Approach for the Kidnapped Robot Problem},
+  author = {Neuland, Renata and Mantelli, Mathias and Hummes, Bernardo and Jaulin, Luc and Maffei, Renan and Prestes, Edson and Kolberg, Mariana},
+  year = {2021},
+  journal = {International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems},
+  volume = {29},
+  number = {02},
+  pages = {313-331},
+  month = february,
+}<<<
+
+\p{For a mobile robot to operate in its environment it is crucial to determine its position with respect to an external reference frame using noisy sensor readings. A scenario in which the robot is moved to another position during its operation without being told, known as the kidnapped robot problem, complicates global localisation. In addition to that, sensor malfunction and external influences of the environment can cause unexpected errors, called outliers, that negatively affect the localisation process. This paper proposes a method based on the fusion of a particle filter with bounded-error localisation, which is able to deal with outliers in the measurement data. The application of our algorithm to solve the kidnapped robot problem using simulated data shows an improvement over conventional probabilistic filtering methods.}

@@ -2,20 +2,28 @@
 <?xml-stylesheet type="text/xsl" href="/default.xsl"?>
 <fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
   <fr:frontmatter>
-    <fr:authors />
-    <fr:uri>https://www.bernardohummes.com/sylvieputot/</fr:uri>
-    <fr:display-uri>sylvieputot</fr:display-uri>
-    <fr:route>/sylvieputot/</fr:route>
-    <fr:title text="Sylvie Putot">Sylvie Putot</fr:title>
-    <fr:taxon>person</fr:taxon>
-    <fr:meta name="external">http://www.lix.polytechnique.fr/Labo/Sylvie.Putot/</fr:meta>
-    <fr:meta name="institution">École Polytechnique</fr:meta>
-    <fr:meta name="position">Professor</fr:meta>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/bernardohummes/" title="Bernardo Hummes Flores" uri="https://www.bernardohummes.com/bernardohummes/" display-uri="bernardohummes" type="local">Bernardo Hummes Flores</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:uri>https://www.bernardohummes.com/0003/</fr:uri>
+    <fr:display-uri>0003</fr:display-uri>
+    <fr:route>/0003/</fr:route>
+    <fr:title text="List of talks">List of talks</fr:title>
   </fr:frontmatter>
   <fr:mainmatter>
-    <html:p>
-  Professor of computer science in École Polytechnique.
-</html:p>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors>
+          <fr:author>
+            <fr:link href="/bernardohummes/" title="Bernardo Hummes Flores" uri="https://www.bernardohummes.com/bernardohummes/" display-uri="bernardohummes" type="local">Bernardo Hummes Flores</fr:link>
+          </fr:author>
+        </fr:authors>
+        <fr:title text="Talks">Talks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
@@ -29,13 +37,6 @@
       <fr:frontmatter>
         <fr:authors />
         <fr:title text="Context">Context</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter />
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:authors />
-        <fr:title text="Backlinks">Backlinks</fr:title>
       </fr:frontmatter>
       <fr:mainmatter>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -68,6 +69,13 @@
 </fr:mainmatter>
         </fr:tree>
       </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
     </fr:tree>
     <fr:tree show-metadata="false" hidden-when-empty="true">
       <fr:frontmatter>
