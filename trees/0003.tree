@@ -6,7 +6,7 @@
 
 \def\rel/my-references{bernardohummes.query.my-references}
 \execute\datalog{
- \rel/my-references ?X -: {\rel/has-author ?X @{bernardohummes}} {\rel/has-taxon ?X '{reference}
+ \rel/my-references ?X -: {\rel/has-author ?X @{bernardohummes}} {\rel/has-taxon ?X '{reference}}
 }
 \subtree{
  \title{Talks}
