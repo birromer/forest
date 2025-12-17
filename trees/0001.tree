@@ -21,7 +21,7 @@
 \scope{
   \put\transclude/numbered{false}
 
-  \transclude{bhf-0002}
+  \transclude{0002}
 
 %  \transclude{0003}
 }
