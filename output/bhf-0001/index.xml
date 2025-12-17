@@ -1,56 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="/default.xsl"?>
-<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="true" base-url="/">
   <fr:frontmatter>
-    <fr:authors />
-    <fr:uri>https://www.bernardohummes.com/ericgoubault/</fr:uri>
-    <fr:display-uri>ericgoubault</fr:display-uri>
-    <fr:route>/ericgoubault/</fr:route>
-    <fr:title text="Éric Goubault">Éric Goubault</fr:title>
-    <fr:taxon>person</fr:taxon>
-    <fr:meta name="external">http://www.lix.polytechnique.fr/Labo/Eric.Goubault/</fr:meta>
-    <fr:meta name="institution">École Polytechnique</fr:meta>
-    <fr:meta name="position">Professor</fr:meta>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/bernardohummes/" title="Bernardo Hummes Flores" uri="https://www.bernardohummes.com/bernardohummes/" display-uri="bernardohummes" type="local">Bernardo Hummes Flores</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:uri>https://www.bernardohummes.com/bhf-0001/</fr:uri>
+    <fr:display-uri>bhf-0001</fr:display-uri>
+    <fr:route>/bhf-0001/</fr:route>
+    <fr:title text="Hi.">Hi.</fr:title>
   </fr:frontmatter>
-  <fr:mainmatter>
-    <html:p>
-  Professor of computer science in École Polytechnique.
-</html:p>
-  </fr:mainmatter>
-  <fr:backmatter>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:authors />
-        <fr:title text="References">References</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter />
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:authors />
-        <fr:title text="Context">Context</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter />
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:authors />
-        <fr:title text="Backlinks">Backlinks</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter>
-        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
-          <fr:frontmatter>
-            <fr:authors>
-              <fr:author>
-                <fr:link href="/bernardohummes/" title="Bernardo Hummes Flores" uri="https://www.bernardohummes.com/bernardohummes/" display-uri="bernardohummes" type="local">Bernardo Hummes Flores</fr:link>
-              </fr:author>
-            </fr:authors>
-            <fr:uri>https://www.bernardohummes.com/bhf-0001/</fr:uri>
-            <fr:display-uri>bhf-0001</fr:display-uri>
-            <fr:route>/bhf-0001/</fr:route>
-            <fr:title text="Hi.">Hi.</fr:title>
-          </fr:frontmatter>
-          <fr:mainmatter><html:img src="/bafkrmiai523hpfba3kfdgvrwget2cwpis6alvg4jawhnxalcaygss3lkve.jpg" style="float: right; width: 120px; margin-left: 20px; margin-bottom: 10px; border: 1px solid #ddd; border-radius: 4px" /><html:p>
+  <fr:mainmatter><html:img src="/bafkrmiai523hpfba3kfdgvrwget2cwpis6alvg4jawhnxalcaygss3lkve.jpg" style="float: right; width: 120px; margin-left: 20px; margin-bottom: 10px; border: 1px solid #ddd; border-radius: 4px" /><html:p>
   I'm a PhD student at <fr:link href="https://www.lix.polytechnique.fr/" type="external">LIX</fr:link> working on formal methods for mobile robotics with <fr:link href="/ericgoubault/" title="Éric Goubault" uri="https://www.bernardohummes.com/ericgoubault/" display-uri="ericgoubault" type="local">Eric Goubault</fr:link>, <fr:link href="/sylvieputot/" title="Sylvie Putot" uri="https://www.bernardohummes.com/sylvieputot/" display-uri="sylvieputot" type="local">Sylvie Putot</fr:link> and <fr:link href="/lucjaulin/" title="Luc Jaulin" uri="https://www.bernardohummes.com/lucjaulin/" display-uri="lucjaulin" type="local">Luc Jaulin</fr:link>. I work on characterizing the solvability of tasks performed by swarms of robots, connecting distributed computing and mobile robotics with the underlying structures in modal logics and topology.
 </html:p><html:p>
   Previously, I completed my masters/engineering degree in autonomous robotics in <fr:link href="https://www.ensta-bretagne.fr/sperob" type="external">ENSTA Bretagne</fr:link>, where I worked with <fr:link href="/lucjaulin/" title="Luc Jaulin" uri="https://www.bernardohummes.com/lucjaulin/" display-uri="lucjaulin" type="local">Luc Jaulin</fr:link> on interval methods for robot localization.
@@ -127,15 +89,90 @@ In this paper, we introduce a sheaf-theoretic characterization of task solvabili
 }]]></fr:meta></fr:frontmatter><fr:mainmatter><html:p>We show that the hybrid systems perspective of distributed multi-robot systems is compatible with logical models of knowledge already used in distributed computing, and demonstrate its usefulness by deriving sufficient epistemic conditions for exploration and gathering robot tasks to be solvable. We provide a separation of the physical and computational aspects of a robotic system, allowing us to decouple the problems related to each and directly use methods from control theory and distributed computing, fields that are traditionally distant in the literature. Finally, we demonstrate a novel approach for reasoning about the knowledge in multi-robot systems through a principled method of converting a switched hybrid dynamical system into a temporal-epistemic logic model, passing through an abstract state machine representation. This creates space for methods and results to be exchanged across the fields of control theory, distributed computing and temporal-epistemic logic, while reasoning about multi-robot systems.</html:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree>
 
 </fr:mainmatter>
-        </fr:tree>
-      </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
     </fr:tree>
     <fr:tree show-metadata="false" hidden-when-empty="true">
       <fr:frontmatter>
         <fr:authors />
         <fr:title text="Related">Related</fr:title>
       </fr:frontmatter>
-      <fr:mainmatter />
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://www.bernardohummes.com/lucjaulin/</fr:uri>
+            <fr:display-uri>lucjaulin</fr:display-uri>
+            <fr:route>/lucjaulin/</fr:route>
+            <fr:title text="Luc Jaulin">Luc Jaulin</fr:title>
+            <fr:taxon>person</fr:taxon>
+            <fr:meta name="external">https://www.ensta-bretagne.fr/jaulin/</fr:meta>
+            <fr:meta name="institution">ENSTA Bretagne</fr:meta>
+            <fr:meta name="orcid">0000-0002-0938-0615</fr:meta>
+            <fr:meta name="position">Professor</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Coordinator of the autonomous robotics specialization in ENSTA Bretagne.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://www.bernardohummes.com/sylvieputot/</fr:uri>
+            <fr:display-uri>sylvieputot</fr:display-uri>
+            <fr:route>/sylvieputot/</fr:route>
+            <fr:title text="Sylvie Putot">Sylvie Putot</fr:title>
+            <fr:taxon>person</fr:taxon>
+            <fr:meta name="external">http://www.lix.polytechnique.fr/Labo/Sylvie.Putot/</fr:meta>
+            <fr:meta name="institution">École Polytechnique</fr:meta>
+            <fr:meta name="position">Professor</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Professor of computer science in École Polytechnique.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://www.bernardohummes.com/ericgoubault/</fr:uri>
+            <fr:display-uri>ericgoubault</fr:display-uri>
+            <fr:route>/ericgoubault/</fr:route>
+            <fr:title text="Éric Goubault">Éric Goubault</fr:title>
+            <fr:taxon>person</fr:taxon>
+            <fr:meta name="external">http://www.lix.polytechnique.fr/Labo/Eric.Goubault/</fr:meta>
+            <fr:meta name="institution">École Polytechnique</fr:meta>
+            <fr:meta name="position">Professor</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Professor of computer science in École Polytechnique.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
     </fr:tree>
     <fr:tree show-metadata="false" hidden-when-empty="true">
       <fr:frontmatter>
