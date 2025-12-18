@@ -1,4 +1,4 @@
-DirectoryIndex index.xml index.html index.htm
+DirectoryIndex index.html index.xml index.htm
 
 <Files "*.xml">
     Header set Content-Type "application/xml; charset=utf-8"
