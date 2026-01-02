@@ -6,9 +6,5 @@ DirectoryIndex index.html index.xml index.htm
 
 <Files "thesis.pdf">
     Require all granted
-    AuthType Basic
-    AuthName "Thesis"
-    AuthUserFile /home/ojiwntjway/.htpasswd
-    Require valid-user
     Header set X-Robots-Tag "noindex, nofollow"
 </Files>
