@@ -4,6 +4,11 @@ DirectoryIndex index.html index.xml index.htm
     Header set Content-Type "application/xml; charset=utf-8"
 </Files>
 
-<Files ~ "thesis.pdf">
-  Header set X-Robots-Tag "noindex, nofollow"
+<Files "thesis.pdf">
+    Require all granted
+    AuthType Basic
+    AuthName "Thesis"
+    AuthUserFile /home/ojiwntjway/.htpasswd
+    Require valid-user
+    Header set X-Robots-Tag "noindex, nofollow"
 </Files>
