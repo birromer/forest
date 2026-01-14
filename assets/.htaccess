@@ -8,3 +8,8 @@ DirectoryIndex index.html index.xml index.htm
     Require all granted
     Header set X-Robots-Tag "noindex, nofollow"
 </Files>
+
+<Files "slides.pdf">
+    Require all granted
+    Header set X-Robots-Tag "noindex, nofollow"
+</Files>
