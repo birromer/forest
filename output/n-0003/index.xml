@@ -7,17 +7,13 @@
         <fr:link href="/bernardohummes/" title="Bernardo Hummes Flores" uri="https://www.bernardohummes.com/bernardohummes/" display-uri="bernardohummes" type="local">Bernardo Hummes Flores</fr:link>
       </fr:author>
     </fr:authors>
-    <fr:uri>https://www.bernardohummes.com/n-0002/</fr:uri>
-    <fr:display-uri>n-0002</fr:display-uri>
-    <fr:route>/n-0002/</fr:route>
-    <fr:title text="Remove the t word">Remove the t word</fr:title>
+    <fr:uri>https://www.bernardohummes.com/n-0003/</fr:uri>
+    <fr:display-uri>n-0003</fr:display-uri>
+    <fr:route>/n-0003/</fr:route>
+    <fr:title text="test number 3">test number 3</fr:title>
   </fr:frontmatter>
   <fr:mainmatter>
-    <html:p>
-  Test.
-
-  Is this updating?
-</html:p>
+    <html:p>Three is a cool number.</html:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
