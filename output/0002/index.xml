@@ -465,6 +465,7 @@ In this paper, we introduce a sheaf-theoretic characterization of task solvabili
 \end {cases}
 ]]></fr:tex>
             <html:p> A good reference for how to present the problems is \cite{Jaulin15a}.</html:p>
+            <html:p>Francesca is now looking here. <fr:tex display="inline"><![CDATA[\alpha  = \mathcal {B}]]></fr:tex></html:p>
           </fr:mainmatter>
         </fr:tree>
       </fr:mainmatter>
