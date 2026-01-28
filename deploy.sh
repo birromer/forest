@@ -13,8 +13,13 @@ forester build
 
 git add .
 git commit -m "Deploy: $(date) ($(git rev-parse --short main))"
+
 # git push origin deploy
 git push origin master
 
+ssh -p 21098 -i ~/.ssh/website ojiwntjway@66.29.148.72 "cd forest && git pull && uapi VersionControlDeployment create repository_root=/home/ojiwntjway/forest"
+
 # git checkout master
 echo "Deployed successfully!"
+
+
