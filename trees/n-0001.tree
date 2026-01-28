@@ -3,6 +3,7 @@
 \tag{misc}
 
 \import{macros-base}
+\import{macros-system}
 
 \p{Ok now let's figure out if this works.}
 
@@ -11,3 +12,21 @@
 \p{I'd love to put some more #{\alpha = \mathcal{C}} sort of stuff more quickly too.}
 
 \p{What else is there to test?}
+
+\p{#{f \colon \states \to \R}}
+
+
+\p{
+  When pondering about the [relation between terminating and aysmptotic tasks](0002), it is also needed to do so in a way that can reach the community. The LCM is not enough to convince people in the robotics community about the result's relevance in their field.
+}
+
+\p{ Perhaps using the #{\lcmlook = \gobs(x,u)} and #{\lcmmove = \fonc(x,u)} as in}
+
+##{
+\begin{cases}
+  \dot x(t) = f(x(t), u(t)) \\
+  y(t) = g(x(t), u(t))
+\end{cases}
+}
+
+\p{ A good reference for how to present the problems is \cite{Jaulin15a}.}

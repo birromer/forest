@@ -433,7 +433,41 @@ In this paper, we introduce a sheaf-theoretic characterization of task solvabili
         <fr:authors />
         <fr:title text="Backlinks">Backlinks</fr:title>
       </fr:frontmatter>
-      <fr:mainmatter />
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/bernardohummes/" title="Bernardo Hummes Flores" uri="https://www.bernardohummes.com/bernardohummes/" display-uri="bernardohummes" type="local">Bernardo Hummes Flores</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:uri>https://www.bernardohummes.com/n-0001/</fr:uri>
+            <fr:display-uri>n-0001</fr:display-uri>
+            <fr:route>/n-0001/</fr:route>
+            <fr:title text="Test note">Test note</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Ok now let's figure out if this works.</html:p>
+            <html:p>This is another paragraph.</html:p>
+            <html:p>I'd love to put some more <fr:tex display="inline"><![CDATA[\alpha  = \mathcal {C}]]></fr:tex> sort of stuff more quickly too.</html:p>
+            <html:p>What else is there to test?</html:p>
+            <html:p>
+              <fr:tex display="inline"><![CDATA[f \colon  \mathbf {S} \to  \mathbb {R}]]></fr:tex>
+            </html:p>
+            <html:p>
+  When pondering about the <fr:link href="/0002/" title="List of publications" uri="https://www.bernardohummes.com/0002/" display-uri="0002" type="local">relation between terminating and aysmptotic tasks</fr:link>, it is also needed to do so in a way that can reach the community. The LCM is not enough to convince people in the robotics community about the result's relevance in their field.
+</html:p>
+            <html:p> Perhaps using the <fr:tex display="inline"><![CDATA[\mathrm {look} = g(x,u)]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathrm {move} = f(x,u)]]></fr:tex> as in</html:p>
+            <fr:tex display="block"><![CDATA[
+\begin {cases}
+  \dot  x(t) = f(x(t), u(t)) \\
+  y(t) = g(x(t), u(t))
+\end {cases}
+]]></fr:tex>
+            <html:p> A good reference for how to present the problems is \cite{Jaulin15a}.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
     </fr:tree>
     <fr:tree show-metadata="false" hidden-when-empty="true">
       <fr:frontmatter>
