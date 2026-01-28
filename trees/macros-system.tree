@@ -1,0 +1,176 @@
+\title{Systems macros}
+
+\import{macros-base}
+
+\p{Notation for distributed computing, robotics, and look-compute-move models.}
+
+% === Distributed computing ===
+
+% States and transitions
+\def\state{#{s}}
+\def\states{#{\mathbf{S}}}
+\def\init{#{\mathbf{I}}}
+\def\actions{#{\mathbf{A}}}
+\def\transition{#{\tau}}
+\def\enabled{#{\operatorname{enabled}}}
+
+% Processes
+\def\procs{#{\Pi}}
+\def\proc{#{p}}
+\def\lstate[i]{#{s_{\i}}}
+
+% Messages
+\def\msg{#{m}}
+\def\msgs{#{\mathcal{M}}}
+\def\send[i][j]{#{\mathrm{send}_{\i,\j}}}
+\def\receive[i][j]{#{\mathrm{receive}_{\i,\j}}}
+
+% Tasks
+\def\tache{#{\mathbf{T}}}
+\def\cinput{#{\mathcal{I}}}
+\def\coutput{#{\mathcal{O}}}
+\def\cmap{#{\Delta}}
+\def\ctask{#{\mathcal{T}}}
+\def\cprotocol{#{\mathcal{P}}}
+\def\protocol{#{\Psi}}
+\def\decision{#{\delta}}
+
+% Task inputs/outputs
+\def\tin{#{I}}
+\def\tout{#{O}}
+\def\tspec{#{\Delta}}
+\def\linput{#{v}}
+\def\loutput{#{d}}
+
+% Simplicial complexes
+\def\verts{#{V}}
+\def\edges{#{E}}
+\def\simps{#{S}}
+\def\scpx{#{K}}
+\def\coloring{#{\chi}}
+\def\ostar[x]{#{\mathrm{star}_{\x}}}
+
+% Chromatic simplicial sets
+\def\simcat{#{\Gamma}}
+\def\csetcat{#{[\simcat\op;\Set]}}
+\def\cset{#{X}}
+\def\coface{#{\delta}}
+\def\face{#{\partial}}
+
+% Agents and communication
+\def\agents{#{\mathcal{A}}}
+\def\agent{#{a}}
+\def\aprocs{#{\mathcal{A}}}
+\def\cgraph[i]{#{G_{\i}}}
+\def\mad{#{M}}
+\def\comm[x][y]{#{\x \rightarrow \y}}
+\def\view[t][x]{#{\mathrm{view}_{\t}(\x)}}
+\def\aagents[t][x]{#{\mathrm{active}_{\t}(\x)}}
+
+% Protocol functors
+\def\pfun{#{\mathcal{F}}}
+\def\pcfun[n]{#{\mathcal{F}^{\n}_{!}}}
+\def\pis{#{\mathcal{F}_{\text{IS}}}}
+\def\pcis{#{\mathcal{F}_{!\text{IS}}}}
+\def\pdn{#{\mathcal{F}_{\text{DN}}}}
+\def\pcdn{#{\mathcal{F}_{!\text{DN}}}}
+\def\pcf{#{\mathcal{F}_{\text{CF}}}}
+\def\pccf{#{\mathcal{F}_{!\text{CF}}}}
+
+% Free algebras
+\def\algebra[A][f]{#{(\A,\f)}}
+\def\faobj[x]{#{\x^{\infty}}}
+\def\famap[x]{#{\phi_{\x}}}
+\def\falgebra[x]{#{(\faobj{\x},\famap{\x})}}
+\def\unit{#{\eta}}
+\def\eval{#{\varepsilon}}
+
+% === Robotics ===
+
+% Relations between models
+\def\simst{#{\mathrel{\leq}}}
+\def\simex{#{\mathrel{\preceq}}}
+\def\disc{#{\Psi}}
+
+% Total state (ontic + epistemic)
+\def\tot{#{\mathbf{z}}}
+\def\sonc[i]{#{O_{\i}}}
+\def\sepi[i]{#{E_{\i}}}
+\def\onc{#{o}}
+\def\epi{#{e}}
+
+% Evolution functions
+\def\fonc{#{f}}
+\def\fepi{#{\varphi}}
+
+% Observation and control spaces
+\def\sobs{#{Y}}
+\def\sctl{#{U}}
+\def\obs{#{y}}
+\def\ctl{#{u}}
+\def\gobs{#{g}}
+
+% LCM operations
+\def\look[i][x]{#{\mathrm{look}_{\i}(\x)}}
+\def\move[x][y]{#{\mathrm{move}(\x,\y)}}
+
+% LCM model
+\def\lcmmodel{#{\mathcal{M}}}
+\def\lcmstate{#{\mathbf{s}}}
+\def\lcmlook{#{\mathrm{look}}}
+\def\lcmcompute{#{\mathrm{compute}}}
+\def\lcmmove{#{\mathrm{move}}}
+\def\lcminst{#{\sigma}}
+\def\lcminstspace{#{\Sigma}}
+
+% Global state
+\def\gstate{#{\mathbf{G}}}
+\def\tstate{#{T}}
+\def\gstates{#{\mathbf{G}}}
+\def\scheduler{#{\mathscr{S}}}
+\def\scheduledbyone{#{\varsigma}}
+
+% Snapshots and views
+\def\snap{#{\mathbf{u}}}
+\def\snapshot{#{\varsigma}}
+\def\snapshots{#{\mathscr{U}}}
+\def\fullsnapshots{#{\Sigma}}
+\def\multisnap{#{\boldsymbol{u}}}
+\def\multiset{#{\mathfrak{M}}}
+\def\ego{#{\star}}
+
+% Robots
+\def\robots{#{\mathcal{R}}}
+\def\robot{#{r}}
+\def\nrobots{#{n}}
+\def\mrobots{#{k}}
+\def\adversary{#{\mathcal{B}}}
+
+% Positions
+\def\pos{#{p}}
+\def\positions{#{\mathcal{P}}}
+
+% Visibility
+\def\neighbors[i][x]{#{\mathcal{N}_{\i}(\x)}}
+\def\visrad{#{r}}
+
+% Environments
+\def\env{#{\mathcal{E}}}
+\def\universe{#{\mathcal{U}}}
+\def\hulls{#{\text{CH}}}
+
+% Tasks
+\def\espace{#{\mathsf{space}}}
+\def\exploration{#{\mathsf{explore}}}
+\def\gathering{#{\mathsf{gather}}}
+\def\surveilance{#{\mathsf{surveil}}}
+
+% Time paths
+\def\tpath{#{\rho}}
+\def\tpaths{#{\mathcal{P}}}
+
+% Graph of function
+\def\graph{#{\textsf{gr}}}
+
+% Distance
+\def\dist[i]{#{\mathrm{dist}_{\i}}}

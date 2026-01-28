@@ -1,0 +1,13 @@
+\title{Test note}
+\author{bernardohummes}
+\tag{misc}
+
+\import{macros-base}
+
+\p{Ok now let's figure out if this works.}
+
+\p{This is another paragraph.}
+
+\p{I'd love to put some more #{\alpha = \mathcal{C}} sort of stuff more quickly too.}
+
+\p{What else is there to test?}

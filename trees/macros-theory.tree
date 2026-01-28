@@ -1,0 +1,231 @@
+\title{Theories macros}
+
+\import{macros-base}
+
+\p{Notation for category theory, control theory, sheaves, and epistemic logic.}
+
+% === Category theory ===
+
+% Categories
+\def\cat[x]{#{\mathbf{\x}}}
+\def\obj[x]{#{\x}}
+\def\mor[x]{#{\x}}
+\def\Fun[x]{#{\mathcal{\x}}}
+
+% Standard categories
+\def\Set{#{\mathbf{Set}}}
+\def\Ab{#{\mathbf{Ab}}}
+
+% Category operations
+\def\op{#{^{\mathrm{op}}}}
+\def\funcat[C][D]{#{[\C;\D]}}
+
+% Morphisms and hom-sets
+\def\Hom[C][x][y]{#{\mathrm{hom}_{\C}(\x,\y)}}
+\def\Ob[C]{#{\mathbf{Ob}(\C)}}
+
+% Identity
+\def\idobj[x]{#{1_{\x}}}
+\def\idmap[x]{#{\mathrm{id}_{\x}}}
+\def\idfun[C]{#{\mathrm{id}_{\C}}}
+
+% Functors and transformations
+\def\nat{#{\;\Rightarrow\;}}
+\def\lan[f][g]{#{\mathrm{Lan}_{\f}(\g)}}
+\def\ran[f][g]{#{\mathrm{Ran}_{\f}(\g)}}
+\def\colim{#{\mathrm{colim}}}
+\def\elements[F]{#{\mathrm{el}(\F)}}
+
+% Yoneda
+\def\yoneda{#{y}}
+
+% Inclusions
+\def\inclusion{#{\iota}}
+\def\embedding{#{j}}
+
+% Linearization
+\def\Zf[x]{#{\Z[\x]}}
+
+% === Control theory ===
+
+% State spaces
+\def\dstates{#{X}}
+\def\dstate{#{x}}
+\def\dynamics{#{f}}
+\def\flow{#{\Phi}}
+\def\lip{#{L}}
+
+% Distance
+\def\dinfty[x][y]{#{d_{\infty}(\x,\y)}}
+
+% Differential inclusions
+\def\dinclusion{#{\mathbb{F}}}
+
+% Control inputs
+\def\dcontrols{#{U}}
+\def\dcontrol{#{u}}
+\def\control{#{h}}
+
+% Jump control
+\def\djumpcontrols{#{V}}
+\def\djumpcontrol{#{v}}
+
+% Observations
+\def\dobservations{#{Y}}
+\def\dobservation{#{y}}
+\def\observation{#{g}}
+
+% Jumps
+\def\djumps{#{E}}
+\def\djump{#{e}}
+\def\jump{#{\varphi}}
+\def\tjumps{#{\mathcal{J}}}
+
+% Graph Laplacian
+\def\glapl{#{L}}
+
+% Switched systems
+\def\dmode{#{\rho}}
+\def\dmodes{#{\mathcal{P}}}
+\def\smode{#{\xi}}
+
+% === Sheaf theory ===
+
+% Categories
+\def\sfcat{#{\mathbf{SF}}}
+\def\sscat{#{\mathbf{SS}}}
+
+% Cellular structures
+\def\cellcat[i][X]{#{\mathbf{Cell}_{\i}(\X)}}
+\def\cellcpx{#{X}}
+\def\poset[i]{#{P_{\i}}}
+
+% Boundary and coboundary
+\def\boundary{#{\partial}}
+\def\coboundary[i]{#{\delta^{\i}}}
+
+% Sheaf operations
+\def\sections{#{\Gamma}}
+\def\slaplacian[i]{#{L_{\i}}}
+
+% Stars and closures
+\def\sstar[x]{#{\star_{\x}}}
+\def\ccl[i]{#{\mathrm{ccl}_{\i}}}
+
+% System slices
+\def\sslice[i]{#{\mathcal{S}_{\i}}}
+\def\cco[i]{#{\simeq_{\i}}}
+\def\cut{#{A}}
+
+% Face incidence
+\def\fin{#{\trianglelefteq}}
+\def\onecell[i][x][y]{#{(\x,\y)_{\i}}}
+
+% Decision functions
+\def\ldec{#{d}}
+\def\ldecspace{#{\mathcal{D}}}
+
+% Projection to initial values
+\def\projinit{#{\mathrm{i}}}
+
+% Fiber
+\def\fiber{#{\pi_{\mathcal{I}}^{-1}}}
+
+% Task sheaf
+\def\tsheaf[i]{#{\mathcal{F}_{\i}}}
+\def\csetcatA[i]{#{\mathbf{Cset}_{\i}}}
+\def\tsec{#{s}}
+
+% Linearization
+\def\lsheaf[i]{#{\mathcal{L}_{\i}}}
+
+% Cohomology
+\def\cohomology[i]{#{\mathcal{H}^{\i}}}
+\def\cc[i]{#{C^{\i}}}
+\def\dmat{#{D}}
+
+% Generator embedding
+\def\gembedding[i]{#{\iota_{\i}}}
+
+% === Epistemic logic ===
+
+% Languages
+\def\ilang{#{\mathcal{L}_{\mathrm{iter}}}}
+\def\kplang{#{\mathcal{L}_{\mathrm{K}}^{+}}}
+
+% Atoms
+\def\iatom{#{p}}
+\def\iatoms{#{\mathit{At}}}
+\def\tatom[x]{#{p_{\x}}}
+\def\tatoms[x]{#{\mathrm{S}_{\x}}}
+
+% Liveness predicates
+\def\alive[x]{#{\mathrm{alive}(\x)}}
+\def\dead[x]{#{\mathrm{dead}(\x)}}
+
+% Truth values
+\def\false{#{\mathrm{false}}}
+\def\true{#{\mathrm{true}}}
+
+% Knowledge operators
+\def\iK{#{K}}
+\def\iD{#{D}}
+\def\iE{#{E}}
+\def\iC{#{C}}
+
+% Temporal operators
+\def\iX[i]{#{X^{\i}}}
+\def\ieventually{#{\Diamond}}
+\def\ialways{#{\Box}}
+
+% Models
+\def\mcset[A]{#{\mathsf{Cset}_{\A}}}
+\def\imodel[x]{#{M[\x]}}
+\def\valuation{#{\ell}}
+\def\world{#{w}}
+
+% Link simplices
+\def\lnk[i][x][y]{#{\mathrm{lnk}_{\i}(\x,\y)}}
+
+% Decision csets
+\def\dsimcat{#{\Psi}}
+\def\dsim[A][f]{#{(\A,\f)}}
+\def\dcsetcat{#{[\dsimcat\op;\Set]}}
+\def\dcset{#{X}}
+
+% Decision values
+\def\decset{#{V}}
+\def\decmap{#{d}}
+\def\dcinput{#{\mathcal{I}}}
+
+% Decision functors
+\def\decfun{#{\mathcal{D}}}
+\def\decobj{#{D}}
+
+% Protocol functors with decisions
+\def\pdfun{#{\mathcal{F}}}
+\def\pdcfun{#{\mathcal{F}_{!}}}
+\def\pdrobfun{#{\mathcal{F}_{\mathrm{lcm}}}}
+\def\pdcrobfun{#{\mathcal{F}_{!\mathrm{lcm}}}}
+
+% Forget and free decisions
+\def\pforget{#{c_{\pi}}}
+\def\pcforget{#{c_{!\pi}}}
+\def\pfree{#{d_{\pi}}}
+\def\pcfree{#{d_{!\pi}}}
+
+% Concrete protocols
+\def\cpfun[f]{#{\mathcal{F}_{\f}}}
+\def\cpcfun[f]{#{\mathcal{F}_{\f!}}}
+\def\ldmap[i]{#{f_{\i}}}
+
+% Averaging
+\def\ldavg[i]{#{\mathrm{avg}_{\i}}}
+\def\cpavg{#{\mathcal{F}_{\mathrm{avg}}}}
+
+% Predicate on decisions
+\def\decpred{#{q}}
+
+% Decision model categories
+\def\mdcset[A]{#{\mathsf{dcset}_{\A}}}
+\def\idmodel[x]{#{M[\x]}}

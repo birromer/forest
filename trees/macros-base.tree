@@ -1,0 +1,48 @@
+\title{Base math macros}
+
+\p{Core mathematical notation and text formatting.}
+
+% Text formatting
+\def\demph[body]{\strong{\body}}
+\def\remph[body]{\em{\body}}
+
+% Number sets
+\def\field{#{\mathbb{K}}}
+\def\R{#{\mathbb{R}}}
+\def\N{#{\mathbb{N}}}
+\def\Z{#{\mathbb{Z}}}
+\def\I{#{\mathbb{I}}}
+\def\B{#{\mathbb{B}}}
+
+% Brackets
+\def\prns[x]{#{\left({\x}\right)}}
+\def\braces[x]{#{\left\{{\x}\right\}}}
+\def\brackets[x]{#{\left[{\x}\right]}}
+\def\angles[x]{#{\left\langle {\x} \right\rangle}}
+\def\floors[x]{#{\left\lfloor {\x} \right\rfloor}}
+
+% Sub/superscripts
+\def\Sub[x]{#{_{\x}}}
+\def\Sup[x]{#{^{\x}}}
+\def\SubSup[x][y]{#{_{\x}^{\y}}}
+
+% Common operators
+\def\id{#{\mathrm{id}}}
+\def\im{#{\mathrm{im}}}
+\def\dd{#{\mathrm{d}}}
+\def\dderiv[num][denom]{#{\frac{\dd {\num}}{\dd {\denom}}}}
+
+% Modifiers
+\def\widebar[x]{#{\overline{\x}}}
+\def\widehat[x]{#{\widehat{\x}}}
+
+% Set theory
+\def\powerset{#{\wp}}
+\def\topology{#{\tau}}
+
+% Logic
+\def\lra{#{\leftrightarrow}}
+\def\inv{#{^{-1}}}
+
+% Projection
+\def\proj{#{\pi}}
