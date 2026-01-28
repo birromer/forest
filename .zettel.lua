@@ -1,5 +1,5 @@
 return {
-  dir = "trees/notes",
+  dir = "trees/notes/",
   sep = "-",
   ext = ".tree",
   index = nil,
