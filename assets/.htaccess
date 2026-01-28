@@ -14,7 +14,7 @@ DirectoryIndex index.html index.xml index.htm
     Header set X-Robots-Tag "noindex, nofollow"
 </Files>
 
-<DirectoryMatch "^/home/ojiwntjway/bernardohummes\.com/n-">
+<DirectoryMatch "^/home/ojiwntjway/bernardohummes\.com/n-.*">
     AuthType Basic
     AuthName "Private Notes"
     AuthUserFile /home/ojiwntjway/.htpasswd
