@@ -1,6 +1,10 @@
-\title{Test.}
+\title{Test with a different name}
 \author{bernardohummes}
 
 \p{
   Test.
+
+  Is this updating?
 }
+
+\p{What about now?}
