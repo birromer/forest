@@ -457,7 +457,11 @@ In this paper, we introduce a sheaf-theoretic characterization of task solvabili
             <html:p>
   When pondering about the <fr:link href="/0002/" title="List of publications" uri="https://www.bernardohummes.com/0002/" display-uri="0002" type="local">relation between terminating and aysmptotic tasks</fr:link>, it is also needed to do so in a way that can reach the community. The LCM is not enough to convince people in the robotics community about the result's relevance in their field.
 </html:p>
-            <html:p> Perhaps using the <fr:tex display="inline"><![CDATA[\mathrm {look} = g(x,u)]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathrm {move} = f(x,u)]]></fr:tex> as in</html:p>
+            <html:p>Perhaps using the <fr:tex display="inline"><![CDATA[\mathrm {look} = g(x,u)]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathrm {move} = f(x,u)]]></fr:tex> as in
+
+next line perhaps
+
+</html:p>
             <fr:tex display="block"><![CDATA[
 \begin {cases}
   \dot  x(t) = f(x(t), u(t)) \\
@@ -467,6 +471,7 @@ In this paper, we introduce a sheaf-theoretic characterization of task solvabili
             <html:p> A good reference for how to present the problems is \cite{Jaulin15a}.</html:p>
             <html:p>Francesca is now looking here. <fr:tex display="inline"><![CDATA[\alpha  = \mathcal {B}]]></fr:tex></html:p>
             <html:p>Look now there is Anaelle looking.</html:p>
+            <html:p>Now there is Elies looking.</html:p>
           </fr:mainmatter>
         </fr:tree>
       </fr:mainmatter>

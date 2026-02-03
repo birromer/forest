@@ -20,7 +20,11 @@
   When pondering about the [relation between terminating and aysmptotic tasks](0002), it is also needed to do so in a way that can reach the community. The LCM is not enough to convince people in the robotics community about the result's relevance in their field.
 }
 
-\p{ Perhaps using the #{\lcmlook = \gobs(x,u)} and #{\lcmmove = \fonc(x,u)} as in}
+\p{Perhaps using the #{\lcmlook = \gobs(x,u)} and #{\lcmmove = \fonc(x,u)} as in
+
+next line perhaps
+
+}
 
 ##{
 \begin{cases}
@@ -34,3 +38,5 @@
 \p{Francesca is now looking here. #{\alpha = \mathcal{B}}}
 
 \p{Look now there is Anaelle looking.}
+
+\p{Now there is Elies looking.}
